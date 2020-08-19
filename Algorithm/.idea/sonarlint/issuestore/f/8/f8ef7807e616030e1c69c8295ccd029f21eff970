@@ -1,0 +1,8 @@
+
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(¡ò†şÿÿÿÿ8˜ ÄÉ».
+]	java:S125 "<This block of commented-out lines of code should be removed.(Á™ËØøÿÿÿÿ8˜ ÄÉ».
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(Ş¡¸Œ8˜ ÄÉ».
+
+java:S11495"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ºĞŞĞüÿÿÿÿ8˜ ÄÉ».
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8˜ ÄÉ».

@@ -1,0 +1,7 @@
+
+K
+java:S1481")Remove this unused "temp" local variable.(ºØ‰Äûÿÿÿÿ8¶âÖ¾¿.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ³´í8•ï¾¿.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ùŞ²¾¿.
+T	java:S106("9Replace this use of System.out or System.err by a logger.(ÇÑ×8Ü±Õ¾¿.

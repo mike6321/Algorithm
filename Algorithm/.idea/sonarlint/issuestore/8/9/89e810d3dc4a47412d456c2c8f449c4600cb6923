@@ -1,0 +1,9 @@
+
+\
+java:S3457"AFormat specifiers should be used instead of string concatenation.(‘í€žûÿÿÿÿ
+Q	java:S125%"<This block of commented-out lines of code should be removed.(Ö÷ð£
+P	java:S125*"<This block of commented-out lines of code should be removed.(Ëÿ·b
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢Ù¬µøÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(æ’
+P	java:S125"<This block of commented-out lines of code should be removed.(Æã‘v
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‘í€žûÿÿÿÿ
