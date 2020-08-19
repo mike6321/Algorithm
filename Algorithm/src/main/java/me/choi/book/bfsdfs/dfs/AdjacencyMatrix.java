@@ -4,7 +4,7 @@ package me.choi.book.bfsdfs.dfs;
  * Project : Algorithm
  *
  * @author : jwdeveloper
- * @comment :
+ * @comment : 인접행렬
  * Time : 3:59 오후
  */
 public class AdjacencyMatrix {

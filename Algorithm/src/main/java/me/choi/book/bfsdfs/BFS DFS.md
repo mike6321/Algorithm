@@ -80,5 +80,19 @@ public class FactorialEx {
 
 ------
 
-# BFS
+
+
+## BFS
+
+노드 = 도시
+
+간선 = 도로
+
+**인접 행렬** : 2차원 배열로 그래프의 연결 관계를 표현하는 방식
+
+![image](https://user-images.githubusercontent.com/33277588/90604912-883d8300-e238-11ea-9b08-eb161186a226.png)
+
+**인접 리스트** : 리스트로 그래프의 연결 관계를 표현하는 방식
+
+![image](https://user-images.githubusercontent.com/33277588/90604873-778d0d00-e238-11ea-9a90-4bdf2ff67a85.png)
 
