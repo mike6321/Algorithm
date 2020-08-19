@@ -82,7 +82,7 @@ public class FactorialEx {
 
 
 
-## DFS
+## DFS (깊이우선탐색)
 
 노드 = 도시
 
@@ -102,61 +102,30 @@ public class FactorialEx {
 
 번호가 낮은 순서대로 스택에 넣는것이 관행이다.
 
-~~~java
-public class Dfs {
-    public static boolean[] visited = new boolean[9];
-    public static List<ArrayList<Integer>> graph = new ArrayList<>();
+최대한 멀리있는 노드를 우선적으로 탐색한다.
 
-    public static void main(String[] args) {
-        for (int i = 0; i < 9; i++) {
-            graph.add(new ArrayList<Integer>());
-        }
+1. 탐색 시작 노드를 스택에 삽입하고 방문처리를 한다.
+2. 스택의 최상단 노드에 방문하지 않은 인접 노드가 있으면 그 인접 노드를 스택에 넣고 방문처리를 한다. 방문하지 않은 인접 노드가 없으면 스택에서 최상단 노드를 꺼낸다.
+3. 2 번의 과정을 더 이상 수행할 수 없을 때까지 반복한다.
 
-        init();
+------
 
-        dfs(1);
-    }
 
-    public static void dfs(int x) {
-        visited[x] = true;
-        System.out.println(x + " ");
 
-        for (int i = 0; i < graph.get(x).size(); i++) {
-            int y = graph.get(x).get(i);
-            if (!visited[y]) {
-                dfs(y);
-            }
-        }
-    }
+## BFS (너비우선탐색)
 
-    private static void init() {
-        graph.get(1).add(2);
-        graph.get(1).add(3);
-        graph.get(1).add(8);
+먼저들어온것이 먼저 나가게 한다.
 
-        graph.get(2).add(1);
-        graph.get(2).add(7);
+큐를 활용한다.
 
-        graph.get(3).add(1);
-        graph.get(3).add(4);
-        graph.get(3).add(5);
+1. 탐색 시작 노드를 큐에 삽입하고 방문 처리를 한다.
+2. 큐에서 노드를 꺼내 해당 노드의 인접 노드 중에서 방문하지 않은 노드를 모두 큐에 삽입하고 방문처리를 한다.
+3. 2 번의 과정을 더 이상 수행할 수 없을때까지 반복한다.
 
-        graph.get(4).add(3);
-        graph.get(4).add(5);
 
-        graph.get(5).add(3);
-        graph.get(5).add(4);
 
-        graph.get(6).add(7);
-
-        graph.get(7).add(2);
-        graph.get(7).add(6);
-        graph.get(7).add(8);
-
-        graph.get(8).add(1);
-        graph.get(8).add(7);
-    }
-
-}
-~~~
+|              | DFS            | BFS              |
+| ------------ | -------------- | ---------------- |
+| **동작원리** | 스택           | 큐               |
+| **구현방법** | 재귀 함수 이용 | 큐 자료구조 이용 |
 
