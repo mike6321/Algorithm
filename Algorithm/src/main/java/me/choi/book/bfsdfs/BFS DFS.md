@@ -129,3 +129,42 @@ public class FactorialEx {
 | **동작원리** | 스택           | 큐               |
 | **구현방법** | 재귀 함수 이용 | 큐 자료구조 이용 |
 
+------
+
+
+
+## 문제 1. 음료수 얼려먹기
+
+```java
+4 5
+00110
+00011
+11111
+00000
+```
+
+이러한 형식의 문자열 입력시 아래와 같이 사용한다. (str.charAt(j) - '0')
+
+```java
+Scanner scanner = new Scanner(System.in);
+N = scanner.nextInt();
+M = scanner.nextInt();
+scanner.nextLine();
+
+for (int i = 0; i < N; i++) {
+    String str = scanner.nextLine();
+    for (int j = 0; j < M; j++) {
+        table[i][j] = str.charAt(j) - '0';
+    }
+}
+```
+
+
+
+###  이 문제의 핵심은 하나의 묶음을 찾는것이다.
+
+1. 특정 지점의 주변 상, 하, 좌, 우를 살핀다음 주변 지점 중에서 값이 '0' 이면서 아직 방문하지 않은 지점이 있다면 해당 지점을 방문한다.
+2. 방문한 지점에서 다시 상, 하, 좌, 우를 살펴보면서 방문을 다시 진행하면 연결된 모든 지점을 방문할 수 있다.
+
+------
+
