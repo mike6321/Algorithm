@@ -7,7 +7,7 @@ package me.choi.book.a_greedy;
  * @comment :
  * Time : 6:07 오후
  */
-public class ex3_1 {
+public class ex_3_1 {
     public static void main(String[] args) {
         int N = 1260;
         int[] arr = {500, 100, 50, 10};
