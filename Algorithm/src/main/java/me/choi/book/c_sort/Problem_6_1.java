@@ -1,6 +1,5 @@
-package me.choi.book.sort;
+package me.choi.book.c_sort;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**

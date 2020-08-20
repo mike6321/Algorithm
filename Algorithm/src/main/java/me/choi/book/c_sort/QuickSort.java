@@ -1,4 +1,4 @@
-package me.choi.book.sort;
+package me.choi.book.c_sort;
 
 /**
  * Project : Algorithm

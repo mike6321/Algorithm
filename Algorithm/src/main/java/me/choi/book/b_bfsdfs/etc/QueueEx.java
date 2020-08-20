@@ -1,4 +1,4 @@
-package me.choi.book.bfsdfs.etc;
+package me.choi.book.b_bfsdfs.etc;
 
 import java.util.LinkedList;
 import java.util.Queue;

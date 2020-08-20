@@ -1,4 +1,4 @@
-package me.choi.book.bfsdfs;
+package me.choi.book.b_bfsdfs;
 
 import java.io.IOException;
 import java.util.Scanner;

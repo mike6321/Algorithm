@@ -1,4 +1,4 @@
-package me.choi.book.bfsdfs.dfs;
+package me.choi.book.b_bfsdfs.dfs;
 
 import java.util.ArrayList;
 import java.util.List;
