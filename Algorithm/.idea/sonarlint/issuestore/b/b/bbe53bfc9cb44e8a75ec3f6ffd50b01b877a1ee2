@@ -1,16 +1,0 @@
-
-p
-java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(ƒôÛ8ŒÆ¶­À.
-J
-java:S1444"-Make this "public static visited" field final(ƒôÛ8ŒÆ¶­À.
-:
-java:S2386"Make this member "protected".(³„ç8á¸­À.
-n
-java:S1104"QMake graph a static final constant or non-public and provide accessors if needed.(³„ç8á¸­À.
-v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰å¡â8Ş”º­À.
-:
-java:S2386"Make this member "protected".(ƒôÛ8ŒÆ¶­À.
-H
-java:S1444"+Make this "public static graph" field final(³„ç8á¸­À.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(â³áùÿÿÿÿ8ã‹»¯À.
