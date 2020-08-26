@@ -1,8 +1,6 @@
 package me.choi.book.e_problem;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Problem_339 {
     public static void main(String[] args) {
@@ -11,36 +9,49 @@ public class Problem_339 {
         int M = scanner.nextInt(); // 도로의 개수
         int K = scanner.nextInt(); // 거리정보
         int X = scanner.nextInt(); // 출발도시의 번호
+        int[] arr = new int[300001];
 
-        List<ArrayList<Node>> lists = new ArrayList<>();
-        for (int i = 0; i < N; i++) {
-            lists.add(new ArrayList<Node>());
+        List<ArrayList<Integer>> lists = new ArrayList<>();
+        for (int i = 0; i < M; i++) {
+            lists.add(new ArrayList<Integer>());
+            arr[i] = -1;
         }
-        for (int i = 0; i < N; i++) {
+
+        for (int i = 0; i < M; i++) {
             int x = scanner.nextInt();
             int y = scanner.nextInt();
 
-            lists.get(i).add(new Node(x, y));
+            lists.get(x).add(y);
+        }
+        arr[X] = 0;
+
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(X);
+
+        while (!queue.isEmpty()) {
+            Integer now = queue.poll();
+
+            for (int i = 0; i < lists.get(now).size(); i++) {
+                Integer nextNode = lists.get(now).get(i);
+
+                if (arr[nextNode] == -1) {
+                    arr[nextNode] = arr[now] + 1;
+                    queue.offer(nextNode);
+                }
+            }
         }
 
-
-
+        boolean tag = true;
+        for (int i = 1; i <= N; i++) {
+            if (arr[i] == K) {
+                System.out.println(i);
+                tag = false;
+            }
+        }
+        if (tag) {
+            System.out.println(-1);
+        }
      }
+
 }
-class Node {
-    private int x;
-    private int y;
 
-    public Node(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    public int getX() {
-        return x;
-    }
-
-    public int getY() {
-        return y;
-    }
-}
