@@ -1,4 +1,4 @@
-package me.choi.book.e_problem;
+package me.choi.book.e_problem.greedy;
 
 import java.util.Scanner; /**
  * Project : Algorithm

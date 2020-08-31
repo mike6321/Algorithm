@@ -70,8 +70,4 @@ Bsrc/main/java/me/choi/book/d_binarysearch/BinarySearchLibrary.java,3/9/39c273e
 j
 :src/main/java/me/choi/book/d_binarysearch/Problem_7_1.java,a/6/a6a047b258f98719209f1f4e6972b6ee0e055d4e
 e
-5src/main/java/me/choi/book/e_problem/Problem_311.java,1/7/17359d7bfdac3b59bb1c15377961e157c4e18fdd
-e
-5src/main/java/me/choi/book/e_problem/Problem_312.java,8/7/87beeb352d127aba7805476fbd2f4507228601b3
-e
 5src/main/java/me/choi/book/e_problem/Problem_339.java,9/5/952f7293bbf2315d7b814e5df64a4243db158402
