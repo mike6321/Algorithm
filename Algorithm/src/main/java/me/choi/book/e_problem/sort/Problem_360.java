@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @comment : 안테나
  * Time : 12:17 오전
  */
-public class Problem_18310 {
+public class Problem_360 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
