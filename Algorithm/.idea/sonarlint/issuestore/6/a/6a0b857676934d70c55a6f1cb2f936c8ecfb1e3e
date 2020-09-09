@@ -1,14 +1,14 @@
 
-v
-java:S1210U"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ø Ë¾8øË´ÐÄ.
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(›æËÀøÿÿÿÿ8Íñ¶ÐÄ.
-v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ò§¸ˆ8øË´ÐÄ.
-U	java:S106("9Replace this use of System.out or System.err by a logger.(ØÓÇè8øË´ÐÄ.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ³´í8øË´ÐÄ.
 U
 java:S1197!"8Move the array designator from the variable to the type.(»ÒÊâ8øË´ÐÄ.
-T
-java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8øË´ÐÄ.
+v
+java:S1210U"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ø Ë¾8øË´ÐÄ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ³´í8øË´ÐÄ.
 T
 java:S1135V"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8øË´ÐÄ.
+T
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8øË´ÐÄ.
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ò§¸ˆ8øË´ÐÄ.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(›æËÀøÿÿÿÿ8Íñ¶ÐÄ.
+U	java:S106("9Replace this use of System.out or System.err by a logger.(ØÓÇè8øË´ÐÄ.
