@@ -36,6 +36,5 @@ public class Problem_3_1 {
 
         int result = (((M / K) * K) * max) + (M % K) * secondMax;
         System.out.println(result);
-
     }
 }
