@@ -89,3 +89,5 @@ f
 .src/main/java/me/choi/book/b_bfsdfs/BFS DFS.md,c/c/cce51b820349a24fc196fa543ce58c69048355ab
 l
 <src/main/java/me/choi/book/e_problem/bfsdfs/Problem_341.java,8/d/8d399a8a36c0ac51378204672f65f8842dacea63
+d
+4src/main/java/me/choi/book/a_greedy/Problem_3_1.java,b/e/bed708ca7b159d392cde3c152c6f1a1a59b9320a
