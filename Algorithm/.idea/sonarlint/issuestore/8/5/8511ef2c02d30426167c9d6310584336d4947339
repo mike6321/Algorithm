@@ -1,0 +1,12 @@
+
+m	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øÿ†8å³»åÈ.
+D
+java:S1481"'Remove this unused "c1" local variable.(Çø€8èÏßåÈ.
+]	java:S125"<This block of commented-out lines of code should be removed.(Ô¢Ú ÿÿÿÿÿ8ãåßåÈ.
+l	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÆöF8å³»åÈ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Éê—8ÜËâåÈ.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ĞÎû¢ÿÿÿÿÿ
+G
+java:S1068"%Remove this unused "n" private field.(¬äœûÿÿÿÿ8Š¸·åÈ.
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8Úì¾åÈ.
+]	java:S125"<This block of commented-out lines of code should be removed.(›îç·ÿÿÿÿÿ8‰³æÈ.
