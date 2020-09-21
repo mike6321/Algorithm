@@ -101,3 +101,5 @@ l
 <src/main/java/me/choi/book/a_greedy/그리디알고리즘.md,8/5/8553b44c2cc3bc1821ada31698f502d39c282250
 _
 /src/main/java/me/choi/book/a_greedy/ex_3_1.java,8/9/892e61e813ac40a02fb6c21d5205beb95381631b
+n
+>src/main/java/me/choi/book/e_problem/greedy/Problem_311_2.java,5/3/53ef246252a9c79610cb8cdc00362a941b03a74f

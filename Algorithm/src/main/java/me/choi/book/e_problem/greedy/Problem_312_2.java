@@ -2,7 +2,7 @@ package me.choi.book.e_problem.greedy;
 
 import java.util.Scanner;
 
-public class Problem_2 {
+public class Problem_312_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();

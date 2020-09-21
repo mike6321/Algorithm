@@ -6,7 +6,7 @@ import java.util.Scanner;
 5
 3 2 1 1 9
 * */
-public class Problem_4 {
+public class Problem_314 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
 0001100
 * */
-public class Problem_1439 {
+public class Problem_313 {
     private static int zeroCount = 0;
     private static int oneCount = 0;
     private static int[] arr;
