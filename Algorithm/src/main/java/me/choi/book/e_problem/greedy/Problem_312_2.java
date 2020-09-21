@@ -1,7 +1,13 @@
 package me.choi.book.e_problem.greedy;
 
 import java.util.Scanner;
-
+/**
+ * Project : Algorithm
+ *
+ * @author : jwdeveloper
+ * @comment : 곱하기 혹은 더하기 (재 풀이)
+ * Time : 12:52 오전
+ */
 public class Problem_312_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

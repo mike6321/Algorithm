@@ -1,6 +1,13 @@
 package me.choi.book.e_problem.greedy;
 
 import java.util.Scanner;
+/**
+ * Project : Algorithm
+ *
+ * @author : jwdeveloper
+ * @comment : 문자열 뒤집기
+ * Time : 11:14 오후
+ */
 /*
 0001100
 * */

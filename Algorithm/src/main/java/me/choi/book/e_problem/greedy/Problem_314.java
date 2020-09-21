@@ -2,6 +2,13 @@ package me.choi.book.e_problem.greedy;
 
 import java.util.Arrays;
 import java.util.Scanner;
+/**
+ * Project : Algorithm
+ *
+ * @author : jwdeveloper
+ * @comment : 만들 수 없는 금액
+ * Time : 11:14 오후
+ */
 /*
 5
 3 2 1 1 9

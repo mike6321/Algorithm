@@ -2,7 +2,6 @@ package me.choi.book.e_problem.greedy;
 
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.Stack;
 
 /**
  * Project : Algorithm

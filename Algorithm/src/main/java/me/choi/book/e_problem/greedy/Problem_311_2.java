@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Project : Algorithm
  *
  * @author : jwdeveloper
- * @comment : 모험가 길드 2
+ * @comment : 모험가 길드 (재 풀이)
  * Time : 10:51 오후
  */
 /*
