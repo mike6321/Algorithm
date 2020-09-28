@@ -7,7 +7,7 @@ import java.util.List;
 public class Re_Problem_361 {
     public static void main(String[] args) {
         Re_Problem_361 problem = new Re_Problem_361();
-        //int[] stages = {2, 1, 2, 6, 2, 4, 3, 3};
+     ;   //int[] stages = {2, 1, 2, 6, 2, 4, 3, 3};
         //int N = 5;
 
         int[] stages = {4, 4, 4, 4, 4};
