@@ -8,46 +8,17 @@ public class Re_Problem_360 {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
         int[] arr = new int[n];
-        int[] result = new int[n];
-        List<Point3> list = new ArrayList<>();
+
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
 
-        for (int i = 0; i < n; i++) {
-            int totalSum = 0;
-            for (int j = 0; j < n; j++) {
-                totalSum += Math.abs(arr[i] - arr[j]);
-            }
-            list.add(new Point3(arr[i], totalSum));
-            result[i] = totalSum;
-        }
+        Arrays.sort(arr);
 
-        Collections.sort(list);
+        int center = (arr.length - 1) / 2;
 
-        System.out.println(list.get(0).getX());
-
+        System.out.println(arr[center]);
     }
 }
-class Point3 implements Comparable<Point3>{
-    private final int x;
-    private final int y;
 
-    public Point3(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
 
-    public int getX() {
-        return x;
-    }
-
-    public int getY() {
-        return y;
-    }
-
-    @Override
-    public int compareTo(Point3 o) {
-        return this.getY() - o.getY();
-    }
-}
