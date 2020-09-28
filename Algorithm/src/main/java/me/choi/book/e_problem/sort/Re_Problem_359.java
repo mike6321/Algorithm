@@ -65,17 +65,17 @@ class Score_2 implements Comparable<Score_2>{
         }
 
         if (origin.getKorea() == this.korea && origin.getEnglish() == this.english) {
-            // 수학 감
-            return origin.getMath() - this.math;
+            // 수학 감소
+            return Integer.compare(origin.getMath(), this.math);
         }
 
         if (origin.getKorea() == this.korea) {
             // 영어점수 증가
-            return this.english - origin.getEnglish();
+            return Integer.compare(this.english, origin.getEnglish());
         }
 
         // 숫자 내림차순
-        return origin.getKorea() - this.korea;
+        return Integer.compare(origin.getKorea(), this.korea);
     }
 }
 
