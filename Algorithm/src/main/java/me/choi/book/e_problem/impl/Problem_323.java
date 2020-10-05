@@ -1,5 +1,9 @@
 package me.choi.book.e_problem.impl;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Project : Algorithm
  *
@@ -13,36 +17,42 @@ public class Problem_323 {
         Problem_323 problem_323 = new Problem_323();
         String s = "aabbaccc";
 
-        problem_323.solution(s);
+        int solution = problem_323.solution(s);
+        System.out.println(solution);
     }
 
     public int solution(String s) {
-        int n = s.length();
-        int answer = n;
-        int result = Integer.MAX_VALUE;
 
-        for (int jumpIndex = 1; jumpIndex <= n; jumpIndex++) {
-            for (int i = 0; i < n; i += jumpIndex) {
-                int nextIndex = jumpIndex + i;
+        int length = s.length();
+        int result = 0;
+        int jumpIndex = 0;
+        int plusIndex = 1;
 
-                if (nextIndex >= n) {
-                    break;
+        for (int i = 0; i < length; i+=jumpIndex) {
+            int nextIndex = i + plusIndex;
+            int lastIndex = nextIndex + plusIndex - 1;
+
+            if (nextIndex < length && lastIndex < length) {
+                String nowStr = s.substring(i, nextIndex);
+                int nxIdx = i + plusIndex;
+                int lstIdx = nextIndex + plusIndex;
+                String nextStr = s.substring(nxIdx, lstIdx);
+
+                if (nowStr.equals(nextStr)) {
+                    result += Math.abs(i - nextIndex) + 1;
+                    //jumpIndex += plusIndex * 2;
+                    jumpIndex = plusIndex + 1;
                 }
-
-                String trimStr = s.substring(i, nextIndex);
-                System.out.println(trimStr);
-                answer += 2;
+                else {
+                    jumpIndex = 1;
+                    result += 1;
+                }
             }
-
-            answer += n - (answer / 2);
-            //System.out.println(answer);
-            if (result >= answer) {
-                result = answer;
+            else {
+                jumpIndex = 1;
+                result += 1;
             }
         }
-
-        System.out.println(result);
-
 
         return result;
     }
