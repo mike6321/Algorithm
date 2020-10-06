@@ -119,3 +119,5 @@ j
 :src/main/java/me/choi/book/e_problem/impl/Problem_322.java,c/0/c086d8d7c6ed3d083c34b23c253e6f2fa5c0f563
 j
 :src/main/java/me/choi/book/e_problem/impl/Problem_323.java,4/0/4023da2b0c814b55e34f71b6d16dcd666f379fd3
+l
+<src/main/java/me/choi/book/e_problem/impl/Problem_323_2.java,d/6/d64568438a06e0369954a5ece2cda8ef2e7f973f

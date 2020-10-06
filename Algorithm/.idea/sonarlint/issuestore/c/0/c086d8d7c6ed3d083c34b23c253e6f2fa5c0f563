@@ -1,4 +1,4 @@
 
-Z	java:S1060"9Replace this use of System.out or System.err by a logger.(Ã”‚×ıÿÿÿÿ8àëÿğÍ.
 U	java:S1064"9Replace this use of System.out or System.err by a logger.(˜™ÈŸ8àëÿğÍ.
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(Ã”‚×ıÿÿÿÿ8àëÿğÍ.
 b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³Ìèş
