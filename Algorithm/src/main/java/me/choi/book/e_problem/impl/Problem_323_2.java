@@ -26,7 +26,6 @@ public class Problem_323_2 {
     }
 
     public int solution(String s) {
-
         int result = Integer.MAX_VALUE;
         int length = s.length();
 
@@ -90,9 +89,7 @@ public class Problem_323_2 {
                     break;
                 }
             }
-
         }
-
         System.out.println(count);
 
         return result;

@@ -1,11 +1,11 @@
 
 i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ž¦ºœ8Ž§ÂÍÏ.
+]	java:S125+"<This block of commented-out lines of code should be removed.(Á›Þ•þÿÿÿÿ8Ž§ÂÍÏ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8Ž§ÂÍÏ.
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8Ž§ÂÍÏ.
 m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îùÃ¬8Ž§ÂÍÏ.
 M
 java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ž§ÂÍÏ.
-L
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8Ž§ÂÍÏ.
 M
 java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ž§ÂÍÏ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8Ž§ÂÍÏ.
-]	java:S125+"<This block of commented-out lines of code should be removed.(Á›Þ•þÿÿÿÿ8Ž§ÂÍÏ.
