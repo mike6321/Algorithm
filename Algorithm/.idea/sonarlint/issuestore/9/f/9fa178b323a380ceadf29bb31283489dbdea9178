@@ -1,0 +1,11 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¸¶Ò
+b	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÅŸå
+o
+java:S1210="YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ËØù¸
+n
+java:S1450"XRemove the "scoreList" field and declare it as a local variable in the relevant methods.(”ä¸ø
+k
+java:S1450
+"PRemove the "n" field and declare it as a local variable in the relevant methods.(¬äœûÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ßö·ÿÿÿÿÿ

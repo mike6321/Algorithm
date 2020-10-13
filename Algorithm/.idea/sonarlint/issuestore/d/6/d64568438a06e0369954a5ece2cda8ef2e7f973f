@@ -1,20 +1,20 @@
 
-K
-java:S11251")Remove the literal "false" boolean value.(„ÂÆ‡úÿÿÿÿ8˜ßØïÏ.
-X	java:S125!"<This block of commented-out lines of code should be removed.(ë º®8˜ßØïÏ.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Ùõ 8 è›íÏ.
-Z	java:S106]"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8˜ßØïÏ.
 z	java:S135="YReduce the total number of break and continue statements in this loop to use at most one.(øœåšúÿÿÿÿ8˜ßØïÏ.
-X	java:S125"<This block of commented-out lines of code should be removed.(¥à™´8˜ßØïÏ.
-]	java:S125"<This block of commented-out lines of code should be removed.(›­¹€ûÿÿÿÿ8˜ßØïÏ.
-g	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Î©ºÁıÿÿÿÿ
-E
-java:S1125O"(Remove the literal "true" boolean value.(«¸ş•8˜ßØïÏ.
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8˜ßØïÏ.
 J
 java:S1481"-Remove this unused "solution" local variable.(Ÿ€µÊ8˜ßØïÏ.
-X	java:S125"<This block of commented-out lines of code should be removed.(ÍÏ‘ 8ÁåÌïÏ.
-z	java:S135,"YReduce the total number of break and continue statements in this loop to use at most one.(¬ï¥Ùÿÿÿÿÿ8˜ßØïÏ.
-X	java:S125$"<This block of commented-out lines of code should be removed.(Ô¦ğš8˜ßØïÏ.
 n
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(°£Y8˜ßØïÏ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Ùõ 8 è›íÏ.
+E
+java:S1125O"(Remove the literal "true" boolean value.(«¸ş•8˜ßØïÏ.
+]	java:S125"<This block of commented-out lines of code should be removed.(›­¹€ûÿÿÿÿ8˜ßØïÏ.
+X	java:S125!"<This block of commented-out lines of code should be removed.(ë º®8˜ßØïÏ.
+K
+java:S11251")Remove the literal "false" boolean value.(„ÂÆ‡úÿÿÿÿ8˜ßØïÏ.
+X	java:S125"<This block of commented-out lines of code should be removed.(ÍÏ‘ 8ÁåÌïÏ.
+z	java:S135,"YReduce the total number of break and continue statements in this loop to use at most one.(¬ï¥Ùÿÿÿÿÿ8˜ßØïÏ.
+g	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Î©ºÁıÿÿÿÿ
+X	java:S125$"<This block of commented-out lines of code should be removed.(Ô¦ğš8˜ßØïÏ.
+X	java:S125"<This block of commented-out lines of code should be removed.(¥à™´8˜ßØïÏ.
