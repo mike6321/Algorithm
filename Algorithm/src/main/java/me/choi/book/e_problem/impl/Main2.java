@@ -13,7 +13,7 @@ public class Main2 {
     private static int n;
     private static int m;
     private static int[][] map;
-ㅇ
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
