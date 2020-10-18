@@ -1,0 +1,14 @@
+
+r
+java:S1450"PRemove the "k" field and declare it as a local variable in the relevant methods.(—Ò°ûÿÿÿÿ8´ã¾’Ò.
+r
+java:S1450"PRemove the "n" field and declare it as a local variable in the relevant methods.(¬äœûÿÿÿÿ8¥®½’Ò.
+w
+java:S1450"ZRemove the "snakeRotate" field and declare it as a local variable in the relevant methods.(í×öç8÷ïº’Ò.
+q
+java:S1450"TRemove the "table" field and declare it as a local variable in the relevant methods.(äÈ‚Ñ8¥®½’Ò.
+V
+java:S4973O"9Use the "equals" method if value comparison was intended.(•ÊõÖ8Ÿü”Ò.
+Z	java:S106U"9Replace this use of System.out or System.err by a logger.(ûÛÏçùÿÿÿÿ8ÊğÓ“Ò.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8‡ßÍ“Ò.

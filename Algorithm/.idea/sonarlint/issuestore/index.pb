@@ -131,5 +131,11 @@ j
 :src/main/java/me/choi/book/e_problem/sort/Problem_363.java,8/0/80881a8292805b30ca5b7fdb5a24d73c385d2145
 l
 <src/main/java/me/choi/book/e_problem/impl/Problem_323_3.java,4/7/478a06000ebd119542da650eb679763d9af3f613
-j
-:src/main/java/me/choi/book/e_problem/impl/Problem_329.java,e/2/e2d867dd51c435fea9eac16407dd8989e12f62a3
+d
+4src/main/java/me/choi/book/e_problem/impl/Snake.java,2/c/2c0f31066160ee2cc33820351f32f4a7bc0c5177
+g
+7src/main/java/me/choi/book/e_problem/impl/SnakeSol.java,3/6/36a2e8c1a0d4f32897962387d155f034ef48d358
+f
+6src/main/java/me/choi/book/e_problem/impl/Chicken.java,5/d/5d6bea4d2485f49d60015e128daf61daf7bcb26d
+d
+4src/main/java/me/choi/book/e_problem/impl/Main2.java,6/1/614d523a7658ca841a659a9f8dfbe8efb6cb1a5e
