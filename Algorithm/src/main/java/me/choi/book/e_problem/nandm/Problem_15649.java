@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class Problem_15649 {
     private static int[] arr;
     private static boolean[] visited;
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt(); // 숫자
-        int m = scanner.nextInt(); // 뽑기
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
 
         visited = new boolean[n];
         arr = new int[m];
@@ -18,18 +17,26 @@ public class Problem_15649 {
     }
 
     private static void combination(int n, int m, int depth) {
+        System.out.println("depth : " + depth);
 
-        if (depth == m) {
-            for (int val : arr) {
-                System.out.print(val + " ");
+        for (int value : arr) {
+            System.out.print(value + " ");
+        }
+        System.out.println();
+
+//
+        if (m == depth) {
+            for (int value : arr) {
+                System.out.print(value + " ");
             }
             System.out.println();
+
             return;
         }
 
 
         for (int i = 0; i < n; i++) {
-
+            System.out.println("index : " + i);
             if (!visited[i]) {
                 arr[depth] = i + 1;
                 visited[i] = true;
@@ -37,6 +44,5 @@ public class Problem_15649 {
                 visited[i] = false;
             }
         }
-
     }
 }
