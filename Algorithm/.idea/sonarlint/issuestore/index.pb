@@ -139,3 +139,7 @@ f
 6src/main/java/me/choi/book/e_problem/impl/Chicken.java,5/d/5d6bea4d2485f49d60015e128daf61daf7bcb26d
 d
 4src/main/java/me/choi/book/e_problem/impl/Main2.java,6/1/614d523a7658ca841a659a9f8dfbe8efb6cb1a5e
+m
+=src/main/java/me/choi/book/e_problem/nandm/Problem_15650.java,0/1/01924a394f40d2f3d338e397548fd1f5f4d6e13c
+m
+=src/main/java/me/choi/book/e_problem/nandm/Problem_15649.java,8/3/83946f5af2f106868c92f5c88d3ab9842b718f5b
