@@ -1,9 +1,9 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ü­ƒŒÓ.
-n
-java:S1450"RRemove the "map" field and declare it as a local variable in the relevant methods.(ÌİœC8’íŒÓ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ØíÏÈ8Ü­ƒŒÓ.
 r
 java:S1450"PRemove the "m" field and declare it as a local variable in the relevant methods.(ìµ›±ûÿÿÿÿ8’íŒÓ.
 r
 java:S1450"PRemove the "n" field and declare it as a local variable in the relevant methods.(¬äœûÿÿÿÿ8ƒƒÿ‹Ó.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ØíÏÈ8Ü­ƒŒÓ.
+n
+java:S1450"RRemove the "map" field and declare it as a local variable in the relevant methods.(ÌİœC8’íŒÓ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ü­ƒŒÓ.
