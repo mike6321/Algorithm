@@ -143,3 +143,7 @@ m
 =src/main/java/me/choi/book/e_problem/nandm/Problem_15650.java,0/1/01924a394f40d2f3d338e397548fd1f5f4d6e13c
 m
 =src/main/java/me/choi/book/e_problem/nandm/Problem_15649.java,8/3/83946f5af2f106868c92f5c88d3ab9842b718f5b
+m
+=src/main/java/me/choi/book/e_problem/nandm/Problem_15651.java,4/a/4aa17a53541f1edc8d5408c128961f0871b0b8f7
+m
+=src/main/java/me/choi/book/e_problem/nandm/Problem_15652.java,d/9/d910b53790ac1e5abc99414c30c87a826bbcc13e
