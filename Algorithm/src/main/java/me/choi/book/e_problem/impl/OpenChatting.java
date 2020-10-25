@@ -1,7 +1,9 @@
 package me.choi.book.e_problem.impl;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Project : Algorithm
@@ -11,68 +13,70 @@ import java.util.List;
  * Time : 12:44 오전
  */
 public class OpenChatting {
+    //KEY : id, VALUE : nickname
+    Map<String, String> information;
+    List<String> log;
     public static void main(String[] args) {
         OpenChatting openChatting = new OpenChatting();
         String[] value = {"Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
-        openChatting.solution(value);
+        String[] solution = openChatting.solution(value);
+
     }
 
     public String[] solution(String[] record) {
-        List<Information> records = new ArrayList<>();
+        information = new HashMap<>();
+        log = new ArrayList<>();
 
         for (int i = 0; i < record.length; i++) {
-            String[] str = record[i].split(" ");
-            if (!(str.length < 3)) {
-                records.add(new Information(str[0], str[1], str[2]));
+            String[] infoArr = record[i].split(" ");
+            String inOutChange = "";
+            String id = "";
+            String nickname = "";
+            if (infoArr.length == 3) {
+                inOutChange = infoArr[0];
+                id = infoArr[1];
+                nickname = infoArr[2];
             }
             else {
-                records.add(new Information(str[0], str[1], null));
+                inOutChange = infoArr[0];
+                id = infoArr[1];
             }
-        }
+            //들어올떄
+            if (inOutChange.equals("Enter")) {
+                log.add(id);
+                log.add("님이 들어왔습니다.");
 
-        for (int i = 0; i < records.size(); i++) {
-            //Enter일때
-            if (isEnterOrLeave(records, i)) {
-
+                information.put(id, nickname);
             }
+            //나갈때
+            if (inOutChange.equals("Leave")) {
+                log.add(id);
+                log.add("님이 나갔습니다.");
+
+                information.put(id, nickname);
+            }
+            //닉네임 바꿀때
+            if (inOutChange.equals("Change")) {
+                information.put(id, nickname);
+            }
+
         }
-
-
 
         String[] answer = {};
+        for (int i = 0; i < log.size(); i++) {
+//            if (i % 2 == 0) {
+//                //answer[i] = information.get(log.get(i));
+//                System.out.println(information.get(log.get(i)));
+//            }
+//            else {
+//                //answer[i] = information.get(log.get(i));
+//                System.out.println(log.get(i));
+//            }
+        }
+
+
         return answer;
     }
-    //Enter면 true Leave면 false
-    private boolean isEnterOrLeave(List<Information> records, int i) {
-        return records.get(i).getEnterOrLeave().equals("ENTER") ? true : false;
-    }
+
 }
-class Information {
-    private final String id;
-    private final String nickName;
-    private final String enterOrLeave;
 
-    public Information(String id, String nickName, String enterOrLeave) {
-        this.id = id;
-        this.nickName = nickName;
-        this.enterOrLeave = enterOrLeave;
-    }
-
-//    public Information(String enterOrLeave, String id) {
-//        this.enterOrLeave = enterOrLeave;
-//        this.id = id;
-//
-//    }
-
-    public String getId() {
-        return id;
-    }
-
-    public String getNickName() {
-        return nickName;
-    }
-
-    public String getEnterOrLeave() {
-        return enterOrLeave;
-    }
-}

@@ -147,3 +147,9 @@ m
 =src/main/java/me/choi/book/e_problem/nandm/Problem_15651.java,4/a/4aa17a53541f1edc8d5408c128961f0871b0b8f7
 m
 =src/main/java/me/choi/book/e_problem/nandm/Problem_15652.java,d/9/d910b53790ac1e5abc99414c30c87a826bbcc13e
+i
+9src/main/java/me/choi/book/e_problem/undoagain/Point.java,0/2/0236ab049521e28e252d2a122963b49e6eca2728
+i
+9src/main/java/me/choi/book/e_problem/undoagain/Snake.java,0/3/03401a7be042262479b29a80ad8a4f51a807ff57
+k
+;src/main/java/me/choi/book/e_problem/impl/OpenChatting.java,3/b/3b6e90e39c181b5a5735514aae69bb768621d43b
