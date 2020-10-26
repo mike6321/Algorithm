@@ -1,14 +1,12 @@
 
+X	java:S125Z"<This block of commented-out lines of code should be removed.(´ŞÅ‹8›É’ÿÕ.
+Z	java:S106p"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8›É’ÿÕ.
+U	java:S106n"9Replace this use of System.out or System.err by a logger.(ØíÏÈ8›É’ÿÕ.
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(ûÛÏçùÿÿÿÿ8›É’ÿÕ.
 r
-java:S1450"PRemove the "l" field and declare it as a local variable in the relevant methods.(µáøÿÿÿÿ8®ïñØÔ.
-D
-java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ïó‹ÛÔ.
-Z	java:S106A"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8„ùÈÚÔ.
-Z	java:S106D"9Replace this use of System.out or System.err by a logger.(ç”Ïßüÿÿÿÿ8„ùÈÚÔ.
+java:S1450"PRemove the "k" field and declare it as a local variable in the relevant methods.(—Ò°ûÿÿÿÿ8›É’ÿÕ.
+Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8›É’ÿÕ.
 L
-java:S1481"*Remove this unused "snake" local variable.(Ìï¡üÿÿÿÿ8©ì‰ÛÔ.
-z
-java:S1450"]Remove the "snakeDirection" field and declare it as a local variable in the relevant methods.(¥Éê¶8øÇæØÔ.
-Z	java:S106F"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8„ùÈÚÔ.
+java:S1144j"*Remove this unused private "print" method.(çñ‰ûÿÿÿÿ8›É’ÿÕ.
 r
-java:S1450"PRemove the "k" field and declare it as a local variable in the relevant methods.(—Ò°ûÿÿÿÿ8Ñ¼ÛØÔ.
+java:S1450"PRemove the "l" field and declare it as a local variable in the relevant methods.(µáøÿÿÿÿ8›É’ÿÕ.

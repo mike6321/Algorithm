@@ -1,120 +1,94 @@
 package me.choi.book.e_problem.undoagain;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
-/**
- * Project : Algorithm
- *
- * @author : jwdeveloper
- * @comment : 뱀 재풀이
- * Time : 9:07 오후
- */
 public class Snake {
-    private static int n;
-    private static int k;
-    private static int l;
+    private static int size;
     private static int[][] map;
-    private static Map<Integer, String> snakeDirection;
-    private static int[][] where = {{0, -1}, {1, 0}, {0, 1}, {-1, 0}};
+    private static Map<Integer, String> rotation;
+    private static int[][] direction = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
 
     public static void main(String[] args) {
-        //초기화
-        init();
+        // TODO Auto-generated method stub
+        Scanner scanner = new Scanner(System.in);
+        size = scanner.nextInt();
+        map = new int[size+2][size+2];
 
-        //외벽 : 2
-        //뱀  : 2
-        //사과 : 1
+        // 벽은 2로 지정
+        for (int i = 0; i < size + 2; i++) {
+            map[0][i] = 2;
+            map[i][0] = 2;
+            map[i][size+1] = 2;
+            map[size+1][i] = 2;
+        }
 
-        // 사과가 있으면 몸길이을 늘리고
-        // 사과가 없으면 몸길이를 늘리지 않고 이동한다.
+        // 사과 위치는 1로 지정
+        int appleSize = scanner.nextInt();
+        for (int i = 0; i < appleSize; i++) {
+            int appleX = scanner.nextInt();
+            int appleY = scanner.nextInt();
+            map[appleX][appleY] = 1;
+        }
 
-        // 외벽에 닿거나 자신의 몸통에 닿으면 종료한다.
+
+        // 회전 정보 지정
+        int whereSize = scanner.nextInt();
+        scanner.nextLine();
+        rotation = new HashMap<Integer, String>();
+        for (int i = 0; i < whereSize; i++) {
+            String[] str = scanner.nextLine().split(" ");
+            rotation.put(Integer.parseInt(str[0]), str[1]);
+        }
+
         Deque<Point> snake = new ArrayDeque<>();
         snake.addFirst(new Point(1, 1));
-        int direction = 1;
+        int where = 0;
         int time = 1;
 
-        while (true) {
+        while(true) {
             Point point = snake.peekLast();
 
-            //다음 순번
-            int nextX = point.getX() +where[direction][0];
-            int nextY = point.getY() +where[direction][1];
+            int startX = point.getX();
+            int startY = point.getY();
 
+
+            int nextX = startX + direction[where][0];
+            int nextY = startY + direction[where][1];
+
+            // 벽에 부딪히거나 자신에게 닿으면 2
             if (map[nextY][nextX] == 2) {
                 break;
             }
 
-            // 사과가 없으면
+            //사과가 없는경우
             if (map[nextY][nextX] != 1) {
-                Point tail = snake.pollFirst(); // 꼬리뜯기
-                map[tail.getY()][tail.getX()] = 0; // 꼬리 있던자리 비우기
+                Point tail = snake.pollFirst();
+                int tailX = tail.getX();
+                int tailY = tail.getY();
+
+                map[tailY][tailX] = 0;
             }
 
-            snake.addLast(new Point(nextY, nextX)); // 뱀 몸통늘리기 2
-            map[nextY][nextX] = 2; // 뱀 몸통늘리기 1
+            map[nextY][nextX] = 2;
+            snake.addLast(new Point(nextY, nextX));
 
+            if(rotation.containsKey(time)) {
+                String direct = rotation.get(time);
 
-            if (snakeDirection.containsKey(time)) {
-                direction = snakeDirection.get(time).equals("D") ? (direction + 1) % 4 : (direction + 3) % 4;
+                where = direct.equals("D") ? (where + 1) % 4 : (where + 3) % 4;
             }
 
             time += 1;
-        }
 
+        }
         System.out.println(time);
     }
 
-    private static void init() {
-        Scanner scanner = new Scanner(System.in);
-        n = scanner.nextInt();
-        map = new int[n+2][n+2];
-
-        k = scanner.nextInt();
-
-        // 외벽 2로 초기화
-        for (int i = 0; i < n + 2; i ++) {
-            map[0][i] = 2;
-            map[i][0] = 2;
-            map[i][n+1] = 2;
-            map[n+1][i] = 2;
-        }
-
-        // 사과 초기화
-        for (int i = 0; i < k; i++) {
-            int x = scanner.nextInt();
-            int y = scanner.nextInt();
-            map[x][y] = 1;
-        }
-
-        //print();
-
-        l = scanner.nextInt();
-        scanner.nextLine();
-
-        snakeDirection = new HashMap<>();
-
-        for (int i = 0; i < l; i++) {
-            String str = scanner.nextLine();
-            String[] splitStr = str.split(" ");
-
-            snakeDirection.put(Integer.parseInt(splitStr[0]), splitStr[1]);
-        }
-
-    }
-
-    private static void print() {
-        System.out.println();
-        for (int i = 0; i < n + 2; i++) {
-            for (int j = 0; j < n + 2; j++) {
-                System.out.print(map[i][j] + " ");
-            }
-            System.out.println();
-        }
-    }
 }
-
-
 class Point {
     private final int x;
     private final int y;
