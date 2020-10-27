@@ -2,40 +2,42 @@ package me.choi.book.e_problem.nandm;
 
 import java.util.Scanner;
 
-public class Problem_15649 {
+/**
+ * Project : Algorithm
+ *
+ * @author : jwdeveloper
+ * @comment : 중복순열
+ * Time : 1:02 오전
+ */
+public class Problem_15651 {
     private static int n;
     private static int m;
-    private static boolean[] visited;
     private static int[] arr;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         n = scanner.nextInt();
         m = scanner.nextInt();
-
-        visited = new boolean[n+1];
+        StringBuffer sb = new StringBuffer();
         arr = new int[m];
 
-        dfs(0);
-
+        dfs(0, sb);
+        System.out.println(sb);
     }
 
-    private static void dfs(int depth) {
+    private static void dfs(int depth, StringBuffer sb) {
         if (depth == m) {
             for (int i = 0; i < m; i++) {
-                System.out.print(arr[i] + " ");
+                sb.append(arr[i] + " ");
             }
-            System.out.println();
+            sb.append("\n");
 
             return;
         }
 
         for (int i = 1; i <= n; i++) {
-            if (!visited[i]) {
-                arr[depth] = i;
-                visited[i] = true;
-                dfs(depth + 1);
-                visited[i] = false;
-            }
+            arr[depth] = i;
+            dfs(depth + 1, sb);
         }
     }
 }

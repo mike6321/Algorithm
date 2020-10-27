@@ -1,15 +1,15 @@
 
-r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»§œ ÿÿÿÿÿ8½÷ÍßÒ.
-o
-java:S1450"RRemove the "dir" field and declare it as a local variable in the relevant methods.(ÜÎ»õ8±æÉßÒ.
-q
-java:S1450"TRemove the "table" field and declare it as a local variable in the relevant methods.(äÈ‚Ñ8±æÉßÒ.
 r
 java:S1450"PRemove the "k" field and declare it as a local variable in the relevant methods.(—Ò°ûÿÿÿÿ8±æÉßÒ.
-r
-java:S1450"PRemove the "n" field and declare it as a local variable in the relevant methods.(¬äœûÿÿÿÿ8±æÉßÒ.
+r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»§œ ÿÿÿÿÿ8½÷ÍßÒ.
+]	java:S125"<This block of commented-out lines of code should be removed.(Ìöùåşÿÿÿÿ8ÁÉßÒ.
+]	java:S125D"<This block of commented-out lines of code should be removed.(²Îé©şÿÿÿÿ8ÁÉßÒ.
+q
+java:S1450"TRemove the "table" field and declare it as a local variable in the relevant methods.(äÈ‚Ñ8±æÉßÒ.
 Z	java:S106r"9Replace this use of System.out or System.err by a logger.(ûÛÏçùÿÿÿÿ8½÷ÍßÒ.
 {
 java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(îÔ’Óıÿÿÿÿ8±æÉßÒ.
-]	java:S125"<This block of commented-out lines of code should be removed.(Ìöùåşÿÿÿÿ8ÁÉßÒ.
-]	java:S125D"<This block of commented-out lines of code should be removed.(²Îé©şÿÿÿÿ8ÁÉßÒ.
+o
+java:S1450"RRemove the "dir" field and declare it as a local variable in the relevant methods.(ÜÎ»õ8±æÉßÒ.
+r
+java:S1450"PRemove the "n" field and declare it as a local variable in the relevant methods.(¬äœûÿÿÿÿ8±æÉßÒ.
