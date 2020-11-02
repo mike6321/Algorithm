@@ -1,12 +1,13 @@
 
-X	java:S125Z"<This block of commented-out lines of code should be removed.(´ŞÅ‹8›É’ÿÕ.
-Z	java:S106p"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8›É’ÿÕ.
-U	java:S106n"9Replace this use of System.out or System.err by a logger.(ØíÏÈ8›É’ÿÕ.
-Z	java:S106A"9Replace this use of System.out or System.err by a logger.(ûÛÏçùÿÿÿÿ8›É’ÿÕ.
-r
-java:S1450"PRemove the "k" field and declare it as a local variable in the relevant methods.(—Ò°ûÿÿÿÿ8›É’ÿÕ.
-Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8›É’ÿÕ.
-L
-java:S1144j"*Remove this unused private "print" method.(çñ‰ûÿÿÿÿ8›É’ÿÕ.
-r
-java:S1450"PRemove the "l" field and declare it as a local variable in the relevant methods.(µáøÿÿÿÿ8›É’ÿÕ.
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(ûÛÏçùÿÿÿÿ8ìğªÖ.
+T
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ìğªÖ.
+v
+java:S2293)"YReplace the type specification in this constructor call with the diamond operator ("<>").(è×ñ÷8ìğªÖ.
+y
+java:S1450"WRemove the "rotation" field and declare it as a local variable in the relevant methods.(¶Àšµıÿÿÿÿ8ìğªÖ.
+u
+java:S1450
+"SRemove the "size" field and declare it as a local variable in the relevant methods.(€ƒ¬·øÿÿÿÿ8ìğªÖ.
+n
+java:S1450"RRemove the "map" field and declare it as a local variable in the relevant methods.(ÌİœC8ìğªÖ.
