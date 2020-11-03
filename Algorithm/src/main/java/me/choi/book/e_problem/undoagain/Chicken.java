@@ -31,7 +31,6 @@ public class Chicken {
     // 조합생성
     private static void combination(int index, int depth) {
         if (depth == m) {
-
             List<Where> result = new ArrayList<Where>();
             for (int i = 0; i < m; i++) {
                 result.add(chicken.get(arr[i]));
@@ -49,7 +48,7 @@ public class Chicken {
     }
 
     private static void calculate(List<Where> result) {
-        int chickDistance = 0;
+        int chickDistance = 0; // 도시의 치킨거리
 
         for (int i = 0; i < result.size(); i++) {
             int chickenX = result.get(i).getX();
@@ -58,9 +57,7 @@ public class Chicken {
             chickDistance += homeCalculate(chickenX, chickenY);
         }
 
-        if (calculateResult >= chickDistance) {
-            calculateResult = chickDistance;
-        }
+        calculateResult =Math.min(calculateResult, chickDistance);
     }
 
     private static int homeCalculate(int chickenX, int chickenY) {
@@ -71,15 +68,14 @@ public class Chicken {
             int homeY = home.get(i).getY();
 
             int absResult = absCalculate(chickenX, chickenY, homeX, homeY);
-            if (chkickenDistanceSum >= absResult) {
-                chkickenDistanceSum = absResult;
-            }
-        }
+            chkickenDistanceSum = Math.min(chkickenDistanceSum, absResult);
+         }
 
         return chkickenDistanceSum;
     }
 
     private static int absCalculate(int chickenX, int chickenY, int homeX, int homeY) {
+        System.out.println(Math.abs(chickenX - homeX) + Math.abs(chickenY - homeY));
         return Math.abs(chickenX - homeX) + Math.abs(chickenY - homeY);
     }
 
