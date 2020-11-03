@@ -30,12 +30,13 @@ public class Chicken {
 
     // 조합생성
     private static void combination(int index, int depth) {
+
         if (depth == m) {
             List<Where> result = new ArrayList<Where>();
             for (int i = 0; i < m; i++) {
                 result.add(chicken.get(arr[i]));
             }
-
+            // 계산시작
             calculate(result);
 
             return;
@@ -48,35 +49,27 @@ public class Chicken {
     }
 
     private static void calculate(List<Where> result) {
-        int chickDistance = 0; // 도시의 치킨거리
-
-        for (int i = 0; i < result.size(); i++) {
-            int chickenX = result.get(i).getX();
-            int chickenY = result.get(i).getY();
-
-            chickDistance += homeCalculate(chickenX, chickenY);
-        }
-
-        calculateResult =Math.min(calculateResult, chickDistance);
-    }
-
-    private static int homeCalculate(int chickenX, int chickenY) {
-        int chkickenDistanceSum = Integer.MAX_VALUE;
-        // TODO Auto-generated method stub
+        int gogo = 0;
         for (int i = 0; i < home.size(); i++) {
             int homeX = home.get(i).getX();
             int homeY = home.get(i).getY();
+            int homeChickenDistance = Integer.MAX_VALUE;
 
-            int absResult = absCalculate(chickenX, chickenY, homeX, homeY);
-            chkickenDistanceSum = Math.min(chkickenDistanceSum, absResult);
-         }
+            for (int j = 0; j <result.size(); j++) {
+                int chickenX = result.get(j).getX();
+                int chickenY = result.get(j).getY();
 
-        return chkickenDistanceSum;
+                int absCalculate = absCalculate(chickenX, chickenY, homeX, homeY);
+                homeChickenDistance = Math.min(absCalculate, homeChickenDistance);
+            }
+            gogo += homeChickenDistance;
+        }
+        calculateResult = Math.min(gogo, calculateResult);
+
     }
 
     private static int absCalculate(int chickenX, int chickenY, int homeX, int homeY) {
-        System.out.println(Math.abs(chickenX - homeX) + Math.abs(chickenY - homeY));
-        return Math.abs(chickenX - homeX) + Math.abs(chickenY - homeY);
+        return Math.abs(homeX - chickenX) + Math.abs(homeY - chickenY);
     }
 
     private static void init() {
