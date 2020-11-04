@@ -1,13 +1,12 @@
 
-Z	java:S106X"9Replace this use of System.out or System.err by a logger.(ϋΫΟηωÿÿÿÿ8μπªΦ.
-T
-java:S1135"2Complete the task associated to this TODO comment.(» ζÿÿÿÿÿ8μπªΦ.
-v
-java:S2293)"YReplace the type specification in this constructor call with the diamond operator ("<>").(θΧρχ8μπªΦ.
-y
-java:S1450"WRemove the "rotation" field and declare it as a local variable in the relevant methods.(¶ΐµύÿÿÿÿ8μπªΦ.
-u
-java:S1450
-"SRemove the "size" field and declare it as a local variable in the relevant methods.(€ƒ¬·ψÿÿÿÿ8μπªΦ.
-n
-java:S1450"RRemove the "map" field and declare it as a local variable in the relevant methods.(ΜέC8μπªΦ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ϋΫΟηωÿÿÿÿ8μπªΦ.
+s
+java:S1450"SRemove the "size" field and declare it as a local variable in the relevant methods.(€ƒ¬·ψÿÿÿÿ8μπªΦ.
+w
+java:S1450"WRemove the "rotation" field and declare it as a local variable in the relevant methods.(¶ΐµύÿÿÿÿ8μπªΦ.
+R
+java:S1135"2Complete the task associated to this TODO comment.(» ζÿÿÿÿÿ8μπªΦ.
+l
+java:S1450"RRemove the "map" field and declare it as a local variable in the relevant methods.(ΜέC8μπªΦ.
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(θΧρχ8μπªΦ.

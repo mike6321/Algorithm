@@ -1,0 +1,12 @@
+
+l
+java:S1450"RRemove the "map" field and declare it as a local variable in the relevant methods.(ÌİœC8¢àÉÆØ.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÁŞ¿8¢àÉÆØ.
+1
+java:S1700"Rename field "chicken"(÷äÅ¡8¢àÉÆØ.
+y
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(âÂŒÿÿÿÿÿ8¢àÉÆØ.
+p
+java:S1450"PRemove the "n" field and declare it as a local variable in the relevant methods.(¬äœûÿÿÿÿ8¢àÉÆØ.
+R
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8¢àÉÆØ.

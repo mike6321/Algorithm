@@ -151,3 +151,9 @@ i
 9src/main/java/me/choi/book/e_problem/undoagain/Snake.java,0/3/03401a7be042262479b29a80ad8a4f51a807ff57
 k
 ;src/main/java/me/choi/book/e_problem/impl/OpenChatting.java,3/b/3b6e90e39c181b5a5735514aae69bb768621d43b
+k
+;src/main/java/me/choi/book/e_problem/undoagain/Chicken.java,7/3/73b3c013e78963509a3a30272d3cbb54b3c46e50
+b
+2src/main/java/me/choi/codingtest/Veterinarian.java,5/2/5228415c441774b9ba56f3ad3bf7e8f7dc893101
+_
+/src/main/java/me/choi/codingtest/Question1.java,b/c/bc9ca353ceb0734e182dfe0784e97fec72e3c8d9
