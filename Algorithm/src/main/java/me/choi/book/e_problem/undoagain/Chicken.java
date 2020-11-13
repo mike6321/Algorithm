@@ -21,8 +21,9 @@ public class Chicken {
     private static int calculateResult = Integer.MAX_VALUE;
 
     public static void main(String[] args) {
+        //초기화
         init();
-
+        //조합
         combination(0, 0);
 
         System.out.println(calculateResult);
@@ -36,7 +37,7 @@ public class Chicken {
             for (int i = 0; i < m; i++) {
                 result.add(chicken.get(arr[i]));
             }
-            // 계산시작
+            // 계산 시작
             calculate(result);
 
             return;
@@ -49,22 +50,27 @@ public class Chicken {
     }
 
     private static void calculate(List<Where> result) {
-        int gogo = 0;
+        int homeDistance = 0;
+
+        // 도시를 기준으로 루프돌기
         for (int i = 0; i < home.size(); i++) {
             int homeX = home.get(i).getX();
             int homeY = home.get(i).getY();
             int homeChickenDistance = Integer.MAX_VALUE;
 
+            // 뽑은 조합을 기준으로 루프돌
             for (int j = 0; j <result.size(); j++) {
                 int chickenX = result.get(j).getX();
                 int chickenY = result.get(j).getY();
-
+                // 도시와 치킨 사이의 거리 구하기
                 int absCalculate = absCalculate(chickenX, chickenY, homeX, homeY);
+                // 치킨거리 구하기 (최소)
                 homeChickenDistance = Math.min(absCalculate, homeChickenDistance);
             }
-            gogo += homeChickenDistance;
+            //도시의 치킨거리
+            homeDistance += homeChickenDistance;
         }
-        calculateResult = Math.min(gogo, calculateResult);
+        calculateResult = Math.min(homeDistance, calculateResult);
 
     }
 
