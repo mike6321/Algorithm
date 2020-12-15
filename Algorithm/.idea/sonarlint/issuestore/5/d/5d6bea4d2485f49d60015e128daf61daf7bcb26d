@@ -1,16 +1,16 @@
 
-r
-java:S1450"PRemove the "n" field and declare it as a local variable in the relevant methods.(¬äœûÿÿÿÿ8›ðüÞÒ.
-8
-java:S1700"Rename field "chicken"(öì†ôýÿÿÿÿ8›ðüÞÒ.
-U	java:S106>"9Replace this use of System.out or System.err by a logger.(ªŒÚ³8›ðüÞÒ.
-K
-java:S1125\")Remove the literal "false" boolean value.(Â…Âúúÿÿÿÿ8›ðüÞÒ.
 n
 java:S1450"RRemove the "map" field and declare it as a local variable in the relevant methods.(ÌÝœC8›ðüÞÒ.
-T
-java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8›ðüÞÒ.
+8
+java:S1700"Rename field "chicken"(öì†ôýÿÿÿÿ8›ðüÞÒ.
+K
+java:S1125\")Remove the literal "false" boolean value.(Â…Âúúÿÿÿÿ8›ðüÞÒ.
+r
+java:S1450"PRemove the "n" field and declare it as a local variable in the relevant methods.(¬äœûÿÿÿÿ8›ðüÞÒ.
 T
 java:S1135R"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8›ðüÞÒ.
+T
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8›ðüÞÒ.
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(ªŒÚ³8›ðüÞÒ.
 T
 java:S1135m"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8›ðüÞÒ.
