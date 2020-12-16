@@ -1,7 +1,7 @@
 
-U	java:S106"9Replace this use of System.out or System.err by a logger.(χ μ²8€δ΅φά.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(χ μ²8ψ”£φά.
 G
 java:S1068"%Remove this unused "a" private field.(ή‹®ψÿÿÿÿ8―φά.
-U	java:S106 "9Replace this use of System.out or System.err by a logger.(χ μ²8ψ”£φά.
 2
 java:S1700"Rename field "a"(ή‹®ψÿÿÿÿ8―φά.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(χ μ²8€δ΅φά.
