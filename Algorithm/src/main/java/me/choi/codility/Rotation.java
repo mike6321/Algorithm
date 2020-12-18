@@ -12,8 +12,8 @@ import java.util.HashMap;
 public class Rotation {
     public static void main(String[] args) {
         Rotation rotation = new Rotation();
-        //int[] A = {3, 8, 9, 7, 6};
-        int[] A = {0, 0, 0};
+        int[] A = {3, 8, 9, 7, 6};
+        //int[] A = {0, 0, 0};
         rotation.solution(A, 1);
     }
     public int[] solution(int[] A, int K) {
