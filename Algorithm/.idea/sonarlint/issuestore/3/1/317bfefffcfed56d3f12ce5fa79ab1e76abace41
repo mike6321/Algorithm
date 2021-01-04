@@ -1,8 +1,8 @@
 
-]	java:S125"<This block of commented-out lines of code should be removed.(áÁç„üÿÿÿÿ8ğµ£ƒç.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ğâ²üÿÿÿÿ8ã›¤ƒç.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ü”Öûÿÿÿÿ8ß™‰ƒç.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÄÇÓøÿÿÿÿ8×Í‹ƒç.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ü”Öûÿÿÿÿ8ß™‰ƒç.
 P
 java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8±ğ‘ƒç.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ü”Öûÿÿÿÿ8ß™‰ƒç.
+]	java:S125"<This block of commented-out lines of code should be removed.(”òñµùÿÿÿÿ8ºã±ç.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ğâ²üÿÿÿÿ8ã›¤ƒç.
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¹üi8×Í‹ƒç.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ü”Öûÿÿÿÿ8ß™‰ƒç.
