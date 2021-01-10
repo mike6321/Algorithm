@@ -10,14 +10,14 @@ import java.util.Scanner;
  * https://jwdeveloper.tistory.com/271
  * Time : 10:55 오전
  */
-public class Main {
+public class Problem_15649 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int m = scanner.nextInt();
         //방문노드
         boolean[] vistied = new boolean[n+1];
-        //depth에 따른 배열 값 저
+        //depth에 따른 배열 값 저장
         int[] arr = new int[m];
 
         dfs(0, vistied, arr, n, m);
