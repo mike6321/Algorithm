@@ -1,44 +1,42 @@
 package me.choi.codility;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Project : Algorithm
  *
  * @author : jwdeveloper
- * @comment :
- * Time : 9:37 오후
+ * @comment : BinaryGap
+ * Time : 12:25 오전
  */
 public class BinaryGap {
     public static void main(String[] args) {
         BinaryGap binaryGap = new BinaryGap();
-        int sol = binaryGap.solution(32);
-
-        System.out.println(sol);
+        binaryGap.solution(1041);
     }
-
     public int solution(int N) {
-        String toBinaryString = Integer.toBinaryString(N);
-        List<Integer> oneIndex = new ArrayList<>();
+        // write your code in Java SE 8
+        int oneCount = 0;
+        int zeroCount = 0;
+        int result = 0;
 
-        for (int i = 0; i < toBinaryString.length(); i++) {
-            if (toBinaryString.charAt(i) == '1') {
-                oneIndex.add(i);
+        while (N != 0) {
+            int target = N % 2;
+            if (target == 1) {
+                oneCount++;
             }
-        }
-
-        int maxGap = Integer.MIN_VALUE;
-        if (oneIndex.size() != 1) {
-            for (int i = 0; i < oneIndex.size() - 1; i++) {
-                int gap = Math.abs(oneIndex.get(i) - oneIndex.get(i + 1));
-                maxGap = Integer.max(maxGap, gap);
+            if (target == 0 && oneCount == 1){
+                zeroCount++;
             }
-        }
-        else {
-            maxGap = 0;
-        }
 
-        return maxGap;
+            if (oneCount == 2) {
+                result = Integer.max(result, zeroCount);
+                zeroCount = 0;
+                oneCount = 1;
+            }
+            N = N / 2;
+        }
+        System.out.println(result);
+
+
+        return result;
     }
 }
