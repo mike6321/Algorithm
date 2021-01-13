@@ -1,7 +1,4 @@
-package me.choi.programmers;
-
-import java.util.ArrayList;
-import java.util.List;
+package me.choi.programmers.stackandqueue;
 
 /**
  * Project : Algorithm

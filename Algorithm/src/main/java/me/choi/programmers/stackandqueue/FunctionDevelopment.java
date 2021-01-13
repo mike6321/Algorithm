@@ -1,4 +1,4 @@
-package me.choi.programmers;
+package me.choi.programmers.stackandqueue;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
