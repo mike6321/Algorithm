@@ -1,12 +1,12 @@
 
+]	java:S125"<This block of commented-out lines of code should be removed.(â¼Îøÿÿÿÿ8«Ûí.
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÊõĞ¿í.
 >
 java:S16437"Use a StringBuilder instead.(ßòÉÑøÿÿÿÿ8æÒ™Ûí.
 O
 java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8”×µÙí.
-E
-java:S1604"(Make this anonymous inner class a lambda(¯§ƒ8öù‡Ûí.
-]	java:S125"<This block of commented-out lines of code should be removed.(â¼Îøÿÿÿÿ8«Ûí.
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÊõĞ¿í.
 O
 java:S1481"-Remove this unused "solution" local variable.(¿˜ÕÂûÿÿÿÿ8áö§Úí.
+E
+java:S1604"(Make this anonymous inner class a lambda(¯§ƒ8öù‡Ûí.

@@ -1,5 +1,5 @@
 
+S	java:S106"9Replace this use of System.out or System.err by a logger.(™‘Άτύÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(πΫ’Ò
 k
 java:S1450"PRemove the "n" field and declare it as a local variable in the relevant methods.(¬δϋÿÿÿÿ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(πΫ’Ò
-S	java:S106"9Replace this use of System.out or System.err by a logger.(™‘Άτύÿÿÿÿ

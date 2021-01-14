@@ -1,5 +1,5 @@
 
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ³´í8´§ãÀ.
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ôØ¡ëûÿÿÿÿ
-U	java:S106."9Replace this use of System.out or System.err by a logger.(‚¨Ö§8ã‡¼ãÀ.
 m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò—Ü8´§ãÀ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ³´í8´§ãÀ.
+U	java:S106."9Replace this use of System.out or System.err by a logger.(‚¨Ö§8ã‡¼ãÀ.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ôØ¡ëûÿÿÿÿ
