@@ -1,5 +1,9 @@
 package me.choi.codility;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
 /**
  * Project : Algorithm
  *
@@ -17,25 +21,25 @@ public class OddOccurrencesInArray {
     }
     public int solution(int[] A) {
         // write your code in Java SE 8
-        int oddValue = A[0];
-        int evenValue = A[1];
-        int result = -1;
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < A.length; i++) {
-            if (i % 2 == 0) {
-                if (distinguishDifferentValue(A, oddValue, i)) return A[i];
-            }
-            else {
-                System.out.println(i);
-                if (distinguishDifferentValue(A, evenValue, i)) return A[i];
+            if (map.containsKey(A[i])) {
+                map.put(A[i], map.get(A[i]) + 1);
+            } else {
+                map.put(A[i], 1);
             }
         }
-        return result;
+
+        Iterator<Map.Entry<Integer, Integer>> entries = map.entrySet().iterator();
+        while (entries.hasNext()) {
+            Map.Entry<Integer, Integer> next = entries.next();
+            if (next.getValue() == 1) {
+                return next.getKey();
+            }
+        }
+
+
+        return 0;
     }
 
-    private boolean distinguishDifferentValue(int[] A, int evenValue, int i) {
-        if (A[i] != evenValue) {
-            return true;
-        }
-        return false;
-    }
 }
