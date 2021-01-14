@@ -1,4 +1,4 @@
-package me.choi.codility;
+package me.choi.codility.iterations;
 
 /**
  * Project : Algorithm
