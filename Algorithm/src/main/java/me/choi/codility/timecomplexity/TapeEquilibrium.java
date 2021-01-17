@@ -17,33 +17,20 @@ public class TapeEquilibrium {
 
     public int solution(int[] A) {
         // write your code in Java SE 8
-        // (1 ~ A.length - 1)
-        int result = Integer.MAX_VALUE;
+        int totalSum = 0;
+        for (int i = 0; i < A.length; i++) {
+            totalSum += A[i];
+        }
+
         int leftSum = 0;
         int rightSum = 0;
-        for (int i = 0; i < A.length; i++) {
-            leftSum += A[i];
+        int minValue = Integer.MAX_VALUE;
+        for (int i = 1; i < A.length; i++) {
+            leftSum += A[i - 1];
+            rightSum = totalSum - leftSum;
+            minValue = Integer.min(minValue, Math.abs(leftSum - rightSum));
         }
 
-        for (int p = 1; p < A.length; p++) {
-            leftSum += leftSum;
-
-        }
-
-
-//        for (int p = 1; p <= A.length - 1; p++) {
-//            int fisrtSum = 0;
-//            int secondSum = 0;
-//            for (int i = 0; i < A.length; i++) {
-//                if (i >= 0 && i <= p-1) {
-//                    fisrtSum += A[i];
-//                }
-//                if (i >= p && i <= A.length - 1) {
-//                    secondSum += A[i];
-//                }
-//            }
-//            result = Integer.min(result, Math.abs(fisrtSum - secondSum));
-//        }
-        return result;
+        return minValue;
     }
 }
