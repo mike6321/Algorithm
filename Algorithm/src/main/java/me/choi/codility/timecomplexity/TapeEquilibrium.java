@@ -19,19 +19,31 @@ public class TapeEquilibrium {
         // write your code in Java SE 8
         // (1 ~ A.length - 1)
         int result = Integer.MAX_VALUE;
-        for (int p = 1; p <= A.length - 1; p++) {
-            int fisrtSum = 0;
-            int secondSum = 0;
-            for (int i = 0; i < A.length; i++) {
-                if (i >= 0 && i <= p-1) {
-                    fisrtSum += A[i];
-                }
-                if (i >= p && i <= A.length - 1) {
-                    secondSum += A[i];
-                }
-            }
-            result = Integer.min(result, Math.abs(fisrtSum - secondSum));
+        int leftSum = 0;
+        int rightSum = 0;
+        for (int i = 0; i < A.length; i++) {
+            leftSum += A[i];
         }
+
+        for (int p = 1; p < A.length; p++) {
+            leftSum += leftSum;
+
+        }
+
+
+//        for (int p = 1; p <= A.length - 1; p++) {
+//            int fisrtSum = 0;
+//            int secondSum = 0;
+//            for (int i = 0; i < A.length; i++) {
+//                if (i >= 0 && i <= p-1) {
+//                    fisrtSum += A[i];
+//                }
+//                if (i >= p && i <= A.length - 1) {
+//                    secondSum += A[i];
+//                }
+//            }
+//            result = Integer.min(result, Math.abs(fisrtSum - secondSum));
+//        }
         return result;
     }
 }

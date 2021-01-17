@@ -221,3 +221,5 @@ r
 Bsrc/main/java/me/choi/codility/timecomplexity/PermMissingElem.java,7/5/75198b1c9777a5450359b987067a4229a8870bab
 b
 2src/main/java/me/choi/programmers/sort/MaxNum.java,1/4/1498c08e1ebb32fb15d542c0366b282c84c39339
+r
+Bsrc/main/java/me/choi/codility/timecomplexity/TapeEquilibrium.java,6/5/65d035cc73702317d819ca6e1bebdf2763db06ed
