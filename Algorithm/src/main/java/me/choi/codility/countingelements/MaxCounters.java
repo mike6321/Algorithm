@@ -20,20 +20,30 @@ public class MaxCounters {
         }
     }
     public int[] solution(int N, int[] A) {
-        // write your code in Java SE 8
+
         int[] result = new int[N];
-        int maxValue = 0;
+
+        int max = 0;
+        int resultMax = 0;
         for (int i = 0; i < A.length; i++) {
-            if (A[i] >= 1 && A[i] <= N) {
-                result[A[i] - 1] = result[A[i] - 1] + 1;
-                maxValue = Integer.max(maxValue, result[A[i] - 1]);
-            }
-            if (A[i] == N + 1) {
-                for (int j = 0; j < result.length; j++) {
-                    result[j] = maxValue;
+            if (1 <= A[i] && N >= A[i]) {
+                if (resultMax >= result[A[i] - 1]) {
+                    result[A[i] - 1] = resultMax + 1;
+                } else {
+                    result[A[i] - 1] = result[A[i] - 1] + 1;
                 }
+                max = Integer.max(max, result[A[i] - 1]);
+            } else if (A[i] == N + 1) {
+                resultMax = max;
             }
         }
+
+        for (int i = 0; i < result.length; i++) {
+            if (result[i] < resultMax) {
+                result[i] = resultMax;
+            }
+        }
+
         return result;
     }
 }
