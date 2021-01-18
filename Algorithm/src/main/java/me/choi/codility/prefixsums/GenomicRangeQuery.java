@@ -38,13 +38,13 @@ public class GenomicRangeQuery {
         for (int i = 0; i < P.length; i++) {
             int p = P[i];
             int q = Q[i];
-            int min = 0;
+            int min = 4;
             List<Integer> list = new ArrayList<>();
             for (int j = p; j <= q; j++) {
                 char target = S.charAt(j);
-                list.add(impactFactors.get(target));
+                min = Integer.min(min, impactFactors.get(target));
             }
-            result[i] = list.stream().min(Integer::compareTo).get();
+            result[i] = min;
         }
 
         return result;
