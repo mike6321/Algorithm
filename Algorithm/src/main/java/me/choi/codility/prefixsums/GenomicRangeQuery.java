@@ -1,6 +1,8 @@
 package me.choi.codility.prefixsums;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -36,8 +38,13 @@ public class GenomicRangeQuery {
         for (int i = 0; i < P.length; i++) {
             int p = P[i];
             int q = Q[i];
-
-            result[i] = Integer.min(impactFactors.get(S.charAt(p)),impactFactors.get(S.charAt(q)));
+            int min = 0;
+            List<Integer> list = new ArrayList<>();
+            for (int j = p; j <= q; j++) {
+                char target = S.charAt(j);
+                list.add(impactFactors.get(target));
+            }
+            result[i] = list.stream().min(Integer::compareTo).get();
         }
 
         return result;
