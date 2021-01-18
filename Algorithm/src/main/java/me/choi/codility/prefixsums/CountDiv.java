@@ -4,7 +4,7 @@ package me.choi.codility.prefixsums;
  * Project : Algorithm
  *
  * @author : jwdeveloper
- * @comment :
+ * @comment : (B - A) / K 를 하니 정확성에서 자꾸 오류가 나서 각각 나눴다.
  * Time : 9:42 오후
  */
 public class CountDiv {
@@ -19,8 +19,8 @@ public class CountDiv {
     public int solution(int A, int B, int K) {
         // write your code in Java SE 8
         if (A % K == 0) {
-            return (B - A) / K + 1;
+            return B/K - A/K + 1;//(B - A) / K + 1;
         }
-        return (B - A) / K;
+        return B/K - A/K;//(B - A) / K;
     }
 }
