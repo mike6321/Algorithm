@@ -1,5 +1,8 @@
 package me.choi.codility.countingelements;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Project : Algorithm
  *
@@ -18,21 +21,18 @@ public class FrogRiverOne {
 
     public int solution(int X, int[] A) {
         // write your code in Java SE 8
-        int length = A.length;
-        boolean[] flag = new boolean[length];
-        int count =  0;
+        Set<Integer> set = new HashSet<>();
+
         for (int i = 0; i < A.length; i++) {
             if (A[i] <= X) {
-                if (!flag[A[i] - 1]) {
-                    count++;
-                }
-                flag[A[i] - 1] = true;
+                set.add(A[i]);
             }
 
-            if (count == X) {
+            if (set.size() == X) {
                 return i;
             }
         }
+
 
         return  -1;
     }
