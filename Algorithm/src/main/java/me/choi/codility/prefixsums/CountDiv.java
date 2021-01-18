@@ -18,12 +18,15 @@ public class CountDiv {
     }
     public int solution(int A, int B, int K) {
         // write your code in Java SE 8
-        int count = 0;
-        for (int i = A; i <= B; i++) {
-            if (i % K == 0) {
-                count++;
-            }
+        int cha = B - A;
+        if (cha == 0) {
+            return 0;
         }
-        return count;
+
+        if (cha % K != 0) {
+            return cha / K + 1;
+        }
+
+        return cha / K;
     }
 }
