@@ -1,7 +1,4 @@
 
-W	java:S125""<This block of commented-out lines of code should be removed.(•Øıl8µÕŠğ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8Äçä‰ğ.
-J
-java:S1481"-Remove this unused "rightSum" local variable.(¯‡š­8ó®Šğ.
 m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñàº8ã¼Ä‰ğ.
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ…Ïñøÿÿÿÿ8ô¢Â‰ğ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8Äçä‰ğ.

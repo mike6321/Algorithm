@@ -1,8 +1,8 @@
 
-X	java:S125"<This block of commented-out lines of code should be removed.(œ˜Í€8ğ—²üï.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Äùÿÿÿÿ8ßÈ¥üï.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡”ã¥8åï¦üï.
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Äùÿÿÿÿ8ßÈ¥üï.
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Äùÿÿÿÿ8ßÈ¥üï.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ğÀŞ8±²¦üï.
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬”êÙùÿÿÿÿ8±²¦üï.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡”ã¥8åï¦üï.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ğÀŞ8±²¦üï.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Äùÿÿÿÿ8ßÈ¥üï.
+X	java:S125"<This block of commented-out lines of code should be removed.(œ˜Í€8ğ—²üï.
