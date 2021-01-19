@@ -1,0 +1,15 @@
+
+{
+java:S1488>"^Immediately return this expression instead of assigning it to the temporary variable "result".(Ç…¡ñ8ÂÄŠÄñ.
+J
+java:S1172"(Remove this unused method parameter "Q".(¶À‚”ûÿÿÿÿ8ÂÄŠÄñ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶À‚”ûÿÿÿÿ8‰şõ­ñ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶À‚”ûÿÿÿÿ8‰şõ­ñ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶À‚”ûÿÿÿÿ8‰şõ­ñ.
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8Ä’¨Äñ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Ó’ø8Ì—ô­ñ.
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(ï¬²µ8«­¤Äñ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤••ƒ8ó­ñ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¸8ÔŞó­ñ.
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8®é¤Äñ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8ÀÙö­ñ.

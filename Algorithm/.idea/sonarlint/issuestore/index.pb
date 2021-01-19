@@ -227,3 +227,13 @@ q
 Asrc/main/java/me/choi/codility/countingelements/FrogRiverOne.java,6/f/6f262b0c61d2e8d884207f5ec8089a163e0b0f03
 p
 @src/main/java/me/choi/codility/countingelements/MaxCounters.java,4/5/45265a028237751148116a60ef2a71a8996ed1cb
+s
+Csrc/main/java/me/choi/codility/countingelements/MissingInteger.java,6/d/6d2b11c21763a5b2e76f34b93d9620fa3db73763
+n
+>src/main/java/me/choi/codility/countingelements/PermCheck.java,6/b/6b2c8e3f50ac756986d37ce2ea9dcf74966d5974
+g
+7src/main/java/me/choi/codility/prefixsums/CountDiv.java,7/b/7b1a8415c8c020bbb8d48db15201f6e0737552d5
+b
+2src/main/java/me/choi/hackerrank/SalesByMatch.java,e/e/ee0fdf529abdcb26cbab6c7e6d28fec89f2e0118
+p
+@src/main/java/me/choi/codility/prefixsums/GenomicRangeQuery.java,a/a/aa938fcde538e364a0a719c00d9a94ed30ffaa59
