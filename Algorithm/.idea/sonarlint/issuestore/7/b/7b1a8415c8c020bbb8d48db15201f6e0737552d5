@@ -1,10 +1,10 @@
 
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûî‰Şûÿÿÿÿ8±¹“¬ñ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8¤ê¬ñ.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë’ñûÿÿÿÿ8¦ù™¬ñ.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûî‰Şûÿÿÿÿ8±¹“¬ñ.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûî‰Şûÿÿÿÿ8±¹“¬ñ.
-X	java:S125"<This block of commented-out lines of code should be removed.(Ö†·Í8â£Î­ñ.
 m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¸¡Ù8¦ù™¬ñ.
-]	java:S125"<This block of commented-out lines of code should be removed.(²„¹¾ûÿÿÿÿ8¾èÍ­ñ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûî‰Şûÿÿÿÿ8±¹“¬ñ.
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸õÚæøÿÿÿÿ8¦ù™¬ñ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûî‰Şûÿÿÿÿ8±¹“¬ñ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë’ñûÿÿÿÿ8¦ù™¬ñ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8¤ê¬ñ.
+X	java:S125"<This block of commented-out lines of code should be removed.(Ö†·Í8â£Î­ñ.
+]	java:S125"<This block of commented-out lines of code should be removed.(²„¹¾ûÿÿÿÿ8¾èÍ­ñ.

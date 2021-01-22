@@ -237,3 +237,5 @@ b
 2src/main/java/me/choi/hackerrank/SalesByMatch.java,e/e/ee0fdf529abdcb26cbab6c7e6d28fec89f2e0118
 p
 @src/main/java/me/choi/codility/prefixsums/GenomicRangeQuery.java,a/a/aa938fcde538e364a0a719c00d9a94ed30ffaa59
+m
+=src/main/java/me/choi/codility/prefixsums/MinAvgTwoSlice.java,2/1/216f9f7d94cbca67096d0f12a7dcd10d9b8a101d
