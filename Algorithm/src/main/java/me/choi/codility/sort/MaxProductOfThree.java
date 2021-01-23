@@ -6,10 +6,10 @@ import java.util.Arrays;
  * Project : Algorithm
  *
  * @author : jwdeveloper
- * @comment : 정렬 후 마지막 수가 음수인지 양수인지를 구분하는 것이 포인
+ * @comment : 정렬 후 마지막 수가 음수인지 양수인지를 구분하는 것이 포인트
  * Time : 6:09 오후
  */
-public class 트 {
+public class MaxProductOfThree {
     public static void main(String[] args) {
         int[] A = {-3, 1, 2, -2, 5, 6};
         MaxProductOfThree maxProductOfThree = new MaxProductOfThree();
