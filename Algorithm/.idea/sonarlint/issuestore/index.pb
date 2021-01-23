@@ -239,3 +239,7 @@ p
 @src/main/java/me/choi/codility/prefixsums/GenomicRangeQuery.java,a/a/aa938fcde538e364a0a719c00d9a94ed30ffaa59
 m
 =src/main/java/me/choi/codility/prefixsums/MinAvgTwoSlice.java,2/1/216f9f7d94cbca67096d0f12a7dcd10d9b8a101d
+a
+1src/main/java/me/choi/codility/sort/Distinct.java,e/3/e31e2f0b2b98ca5b60d21d884df43544400ae432
+j
+:src/main/java/me/choi/codility/sort/MaxProductOfThree.java,a/7/a7798d6717e3d495722f1404652f954878cba35a
