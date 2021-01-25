@@ -1,7 +1,7 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð…Ïñøÿÿÿÿ8²¾¹‚ò.
-K
-java:S1481".Remove this unused "lastIndex" local variable.( Üãó8³´¿‚ò.
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þíî¾øÿÿÿÿ8²¾¹‚ò.
 K
 java:S1481"/Remove this unused "startIndex" local variable.(™±ì{8³´¿‚ò.
+K
+java:S1481".Remove this unused "lastIndex" local variable.( Üãó8³´¿‚ò.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð…Ïñøÿÿÿÿ8²¾¹‚ò.

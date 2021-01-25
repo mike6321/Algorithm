@@ -243,3 +243,5 @@ a
 1src/main/java/me/choi/codility/sort/Distinct.java,e/3/e31e2f0b2b98ca5b60d21d884df43544400ae432
 j
 :src/main/java/me/choi/codility/sort/MaxProductOfThree.java,a/7/a7798d6717e3d495722f1404652f954878cba35a
+r
+Bsrc/main/java/me/choi/codility/sort/NumberOfDiscIntersections.java,2/3/23f1246b5d507b0ab28c5722fc1e3c4fa2cbf150

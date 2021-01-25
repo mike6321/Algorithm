@@ -2,3 +2,5 @@
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ…Ïñøÿÿÿÿ8¸—îÊò.
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•´¥ÿÿÿÿÿ8¿ÏğÊò.
 U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8‡™óÊò.
+J
+java:S1125 "(Remove the literal "true" boolean value.(…›¸—ûÿÿÿÿ8Ú©™êò.

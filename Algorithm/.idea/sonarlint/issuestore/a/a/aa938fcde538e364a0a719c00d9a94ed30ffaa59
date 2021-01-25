@@ -1,15 +1,15 @@
 
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¸8ÔÞó­ñ.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Ó’ø8Ì—ô­ñ.
-X	java:S125>"<This block of commented-out lines of code should be removed.(Ë›¥×8Ê¨€€ò.
 X	java:S1251"<This block of commented-out lines of code should be removed.(„º×î8×äÖÿñ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤••ƒ8žŽó­ñ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8ÀÙö­ñ.
+r	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶À‚”ûÿÿÿÿ8‰þõ­ñ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¸8ÔÞó­ñ.
 T
 java:S1135K"2Complete the task associated to this TODO comment.(µ’†­ýÿÿÿÿ8Þ²öÿñ.
-]	java:S125d"<This block of commented-out lines of code should be removed.(ÜÚ“Ýýÿÿÿÿ8±´æÿñ.
 r	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶À‚”ûÿÿÿÿ8‰þõ­ñ.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤••ƒ8žŽó­ñ.
+X	java:S125>"<This block of commented-out lines of code should be removed.(Ë›¥×8Ê¨€€ò.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Ó’ø8Ì—ô­ñ.
+]	java:S125d"<This block of commented-out lines of code should be removed.(ÜÚ“Ýýÿÿÿÿ8±´æÿñ.
 O
 java:S1135)"2Complete the task associated to this TODO comment.(²Ÿ¹†8ƒš€ò.
 r	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶À‚”ûÿÿÿÿ8‰þõ­ñ.
-r	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶À‚”ûÿÿÿÿ8‰þõ­ñ.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8ÀÙö­ñ.
