@@ -6,7 +6,11 @@ import java.util.Stack;
  * Project : Algorithm
  *
  * @author : jwdeveloper
- * @comment :
+ * @comment : 스택자료구조
+ * 하류 물고기일때를 스택에 푸시하고
+ * 상류 물고일때 스택에 있는 하류 물고기의 값을 비교하여 루프를 돈다.
+ *
+ * 상류 물고기일때 stack에 아무것도 담겨있지 않을 때에도 카운트를 늘려줘야한다.
  * Time : 1:26 오후
  */
 public class Fish {
@@ -21,26 +25,28 @@ public class Fish {
     public int solution(int[] A, int[] B) {
         // write your code in Java SE 8
         Stack<Integer> down = new Stack<>();
-        int lastSize = 0;
-        int aliveSize = 0;
+        int resultSize = 0;
         for (int i = 0; i < A.length; i++) {
-            //하류로 내려가는 고기들 stack에 담기
+            //상류일때 push
             if (B[i] == 1) {
                 down.push(A[i]);
-            } else { // 상류로 올라가는 고기들의 경우
+            }
+            //하류일때
+            else {
                 while (!down.isEmpty()) {
-                    lastSize = down.peek(); // 첫 번째 하류로 내려가는 고기와 사이즈 비교
-                    if (lastSize > A[i]) { // 하류로 내려가는 고기 값이 더크면 루프 종료
+                    int downTarget = down.peek();
+                    if (downTarget > A[i]) {
                         break;
                     } else {
                         down.pop();
                     }
                 }
                 if (down.isEmpty()) {
-                    aliveSize++;
+                    ++resultSize;
                 }
             }
         }
-        return aliveSize + down.size();
+        //남아있는 하류 물고기 수와 살아남있는 물고기 수의 합을 리턴
+        return resultSize + down.size();
     }
 }
