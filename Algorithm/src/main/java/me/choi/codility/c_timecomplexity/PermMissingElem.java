@@ -1,4 +1,4 @@
-package me.choi.codility.timecomplexity;
+package me.choi.codility.c_timecomplexity;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package me.choi.codility.arrays;
+package me.choi.codility.b_arrays;
 
 /**
  * Project : Algorithm

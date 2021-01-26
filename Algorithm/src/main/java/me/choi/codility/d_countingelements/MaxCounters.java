@@ -1,6 +1,4 @@
-package me.choi.codility.countingelements;
-
-import java.util.Arrays;
+package me.choi.codility.d_countingelements;
 
 /**
  * Project : Algorithm

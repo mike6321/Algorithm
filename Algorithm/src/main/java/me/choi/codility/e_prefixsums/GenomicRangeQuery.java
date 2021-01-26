@@ -1,4 +1,4 @@
-package me.choi.codility.prefixsums;
+package me.choi.codility.e_prefixsums;
 
 import java.util.HashMap;
 import java.util.Map;

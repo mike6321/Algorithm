@@ -1,4 +1,4 @@
-package me.choi.codility.countingelements;
+package me.choi.codility.d_countingelements;
 
 import java.util.HashSet;
 import java.util.Set;

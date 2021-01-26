@@ -1,8 +1,6 @@
-package me.choi.codility.sort;
+package me.choi.codility.f_sorting;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * Project : Algorithm
