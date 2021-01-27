@@ -1,9 +1,0 @@
-
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ…Ïñøÿÿÿÿ8ì¸Èóï.
-Q
-java:S2864#"4Iterate over the "entrySet" instead of the "keySet".(‘„Ñ¢8§¯¼úï.
-]	java:S125'"<This block of commented-out lines of code should be removed.(Ô†£ûÿÿÿÿ8åòàúï.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8¨¬¾ôï.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›×´ùÿÿÿÿ8Ø›Ëóï.
-]	java:S125"<This block of commented-out lines of code should be removed.(¯›şäÿÿÿÿÿ8©íÏúï.
-X	java:S125"<This block of commented-out lines of code should be removed.(ÌÓ–Ş8íÙĞúï.

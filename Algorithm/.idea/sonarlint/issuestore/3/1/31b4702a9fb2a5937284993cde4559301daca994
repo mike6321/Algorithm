@@ -1,0 +1,8 @@
+
+t	java:S135("YReduce the total number of break and continue statements in this loop to use at most one.(³®‰8ìïûöó.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ‘ú¬ıÿÿÿÿ8ìïûöó.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ€…Äıÿÿÿÿ8ìïûöó.
+r
+java:S1149!"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ8ìïûöó.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8ìïûöó.
+]	java:S125""<This block of commented-out lines of code should be removed.(šû‘êüÿÿÿÿ8ìïûöó.

@@ -1,0 +1,13 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¸ŸÓÿÿÿÿÿ8›€ýåó.
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ8•ãŒæó.
+i
+java:S1871*"LThis branch's code block is the same as the block for the branch on line 40.(ö§Ø 8ÀË«çó.
+O
+java:S1135#"2Complete the task associated to this TODO comment.(î¢Í÷8¢÷½çó.
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ä¸ŸÓÿÿÿÿÿ8Ãà«çó.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8±Ûþåó.
+h
+java:S1871,"LThis branch's code block is the same as the block for the branch on line 40.(â†±\8Ãà«çó.
