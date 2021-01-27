@@ -24,7 +24,7 @@ public class Problem01 {
 
         Problem01 problem01 = new Problem01();
         problem01.solution2(stack);
-        System.out.println(stack);
+        System.out.println(stack.peek());
     }
 
     // TODO: [스택 비재귀] junwoochoi 2021/01/27 11:57 오전
@@ -48,13 +48,39 @@ public class Problem01 {
      * 1 2 3
      *
      * solution2 - 1 2 3
+     *
      * solution2 - 1 2   - pop(3)
      * solution2 - 1     - pop(2)
      * solution2 -       - pop(1)
      *
-     * insertAtBottom - null      , 1  [1]
-     * insertAtBottom - [1]     , 2
-     * insertAtBottom -
+     * *************solution2 -       - pop(1)*************
+     * insertAtBottom - null , 1
+     * 1 push
+     *
+     * 현재 스택 [1]
+     **************solution2 -       - pop(1)*************
+     *
+     **************solution2 - 1     - pop(2)*************
+     * insertAtBottom - [1] , 2
+     * pop 1
+     *      insertAtBottom - null , 2
+     *          push 2
+     * push 1
+     *
+     * 현재 스택 [1 2]
+     *
+     **************solution2 - 1 2   - pop(3)*************
+     * insertAtBottom [1 2] , 3
+     * pop 1
+     *      insertAtBottom [2] , 3
+     *          pop 2
+     *              insertAtBottom null , 3
+     *                  push 3
+     *          push 2
+     * push 1
+     *
+     * 현재 스택 [1 2 3]
+     **************solution2 - 1 2   - pop(3)*************
      * */
     private void solution2(Stack<Integer> stack) {
         if (stack.isEmpty()) {
