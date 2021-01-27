@@ -1,6 +1,6 @@
 
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8¡“òó.
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¸ŸÓÿÿÿÿÿ8áŠòó.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠŸÆš8¡“òó.
 r
 java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ8’·šòó.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠŸÆš8¡“òó.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8¡“òó.
