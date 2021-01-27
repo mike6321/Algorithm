@@ -11,9 +11,9 @@ import java.util.Set;
  * @comment :
  * Time : 10:55 오전
  */
-public class ContainsDuplicate {
+public class Problem01 {
     public static void main(String[] args) {
-        ContainsDuplicate containsDuplicate = new ContainsDuplicate();
+        Problem01 containsDuplicate = new Problem01();
         System.out.println(containsDuplicate.solution1(new int[] {1, 2, 3, 4, 5}));
         // 시간복잡도 : O(N^2)
         // 공간복잡도 : O(1)

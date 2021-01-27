@@ -7,9 +7,9 @@ package me.choi.whiteship.array;
  * @comment :
  * Time : 11:35 오전
  */
-public class ReverseString {
+public class Problem02 {
     public static void main(String[] args) {
-        ReverseString reverseString = new ReverseString();
+        Problem02 reverseString = new Problem02();
         System.out.println(reverseString.solution1("Hello".toCharArray()));
         // 시간복잡도 : O(N)
         // 공간복잡도 : O(N)

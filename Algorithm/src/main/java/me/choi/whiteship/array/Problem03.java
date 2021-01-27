@@ -11,9 +11,9 @@ import java.util.Map;
  * @comment :
  * Time : 2:04 오후
  */
-public class TwoSumSolution {
+public class Problem03 {
     public static void main(String[] args) {
-        TwoSumSolution twoSumSolution = new TwoSumSolution();
+        Problem03 twoSumSolution = new Problem03();
         int[] result = twoSumSolution.solution1(new int[]{2, 3, 5, 7}, 9);
         System.out.println(Arrays.toString(result));
 
