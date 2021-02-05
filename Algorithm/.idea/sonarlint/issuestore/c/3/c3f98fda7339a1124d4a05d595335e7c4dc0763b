@@ -1,14 +1,21 @@
 
+m
+java:S1149""PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(½³†š8‡ÿàô.
+N
+java:S1135+"2Complete the task associated to this TODO comment.(´ÄÇw8Êúªô.
 r
-java:S1149!"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÿÃúŞşÿÿÿÿ8’…äô.
+java:S1149#"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÿÃúŞşÿÿÿÿ8’…äô.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¢˜ğ‡8¨–Âô.
+K
+java:S1144"".Remove this unused private "solution1" method.(½³†š8Ï¿ô.
+O
+java:S1135"2Complete the task associated to this TODO comment.(ÚÓ‹¾8Ğª™ô.
+r
+java:S1149_"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(«¼è”ıÿÿÿÿ8äí®ô.
+r
+java:S1149U"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(‰ñ ¦şÿÿÿÿ8ô–ªô.
+m
+java:S1149""PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(½³†š8‡ÿàô.
 r
 java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ8‚¾Úô.
-m
-java:S1149 "PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(½³†š8‡ÿàô.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(‘´Ôİ8°Üäô.
-m
-java:S1149 "PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(½³†š8‡ÿàô.
-r
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(˜¶åËùÿÿÿÿ8Èêàô.
-O
-java:S1135"2Complete the task associated to this TODO comment.(ÚÓ‹¾8Ğª™ô.
+]	java:S125"<This block of commented-out lines of code should be removed.(ù§Ññıÿÿÿÿ8Ï¿ô.

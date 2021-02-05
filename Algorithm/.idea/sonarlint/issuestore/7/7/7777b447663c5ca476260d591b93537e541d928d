@@ -1,0 +1,13 @@
+
+i
+java:S1871$"LThis branch's code block is the same as the block for the branch on line 34.(çÐ§ñ8Öºž’ô.
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(í¦’Þøÿÿÿÿ8¹Ÿ¡’ô.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÂÐ§Å8Àñ¢’ô.
+i
+java:S1871&"LThis branch's code block is the same as the block for the branch on line 34.(çÖÆñ8ôÏž’ô.
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(»’ÌÓ8Ö„õ‘ô.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ë—žÍüÿÿÿÿ8Àñ¢’ô.
+J
+java:S1125-"(Remove the literal "true" boolean value.(åãéÿúÿÿÿÿ8¢‰¯’ô.
