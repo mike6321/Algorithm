@@ -1,0 +1,12 @@
+
+J
+java:S1481"-Remove this unused "solution" local variable.(°®´Æ8œØÂ÷.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÙè°8ê…‰÷.
+m	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Óî8©›¼÷.
+X	java:S125"<This block of commented-out lines of code should be removed.(¥à™´8œØÂ÷.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8˜‘÷.
+m	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Óî8©›¼÷.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÙè°8ê…‰÷.
+h
+java:S2184'"FCast one of the operands of this multiplication operation to a "long".(ºù¿ëşÿÿÿÿ8ÎÅ÷.

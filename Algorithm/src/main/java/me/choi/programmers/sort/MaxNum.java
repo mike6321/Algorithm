@@ -15,7 +15,7 @@ public class MaxNum {
         int[] numbers = {6, 10, 2};
         maxNum.solution(numbers);
     }
-
+ 
 
     public String solution(int[] numbers) {
         String[] result = new String[numbers.length];

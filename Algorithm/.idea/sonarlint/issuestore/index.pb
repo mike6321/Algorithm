@@ -231,3 +231,13 @@ d
 4src/main/java/me/choi/whiteship/stack/Problem02.java,7/7/7777b447663c5ca476260d591b93537e541d928d
 l
 <src/main/java/me/choi/codility/c_timecomplexity/FrogJmp.java,e/4/e4e639c5a01b39dc83ae52eaedae636e22e49cce
+j
+:src/main/java/me/choi/codility/a_iterations/BinaryGap.java,e/d/ed5672b789bb5d56b7269ed94ceb8f85e0a2f8b1
+]
+-src/main/java/me/choi/codility/naver/One.java,2/5/254cd3b00820746c35fa92d42050ef4ca9187b87
+]
+-src/main/java/me/choi/codility/naver/Two.java,f/6/f6454847670d086c19d0bfe03c5bf20a90e160b4
+_
+/src/main/java/me/choi/codility/naver/Three.java,1/3/13606036993cc67fe65ede9bd70834dd03f09178
+^
+.src/main/java/me/choi/codility/naver/Four.java,8/2/823867c7db98f2c5972ed3c273b8af53aed0a28c
