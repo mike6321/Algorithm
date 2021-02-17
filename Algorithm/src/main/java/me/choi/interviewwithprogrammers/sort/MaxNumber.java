@@ -1,4 +1,4 @@
-package me.choi.interviewwithprogrammers;
+package me.choi.interviewwithprogrammers.sort;
 
 import java.util.Arrays;
 import java.util.Comparator;
