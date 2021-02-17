@@ -1,8 +1,8 @@
 
 m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ³´í8ôÉ“âÀ.
 g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Øã¸þÿÿÿÿ
-v
-java:S1210>"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ø Ë¾8¿Ÿ¾âÀ.
 C
 java:S1481"(Remove this unused "arr" local variable.(K8ÉèÀâÀ.
+v
+java:S1210>"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ø Ë¾8¿Ÿ¾âÀ.
 Z	java:S106#"9Replace this use of System.out or System.err by a logger.(®·–÷þÿÿÿÿ8â¬ÅâÀ.

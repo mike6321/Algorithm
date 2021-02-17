@@ -1,0 +1,27 @@
+
+b
+java:S1192"GDefine a constant instead of duplicating this literal "junwoo" 4 times.(Ê‰ï¾ÿÿÿÿÿ
+O
+java:S4973"9Use the "equals" method if value comparison was intended.(’Ëú‹
+O
+java:S4973"9Use the "equals" method if value comparison was intended.(’Ëú‹
+T
+java:S4973"9Use the "equals" method if value comparison was intended.(Ÿƒ”Ìûÿÿÿÿ
+O
+java:S4973"9Use the "equals" method if value comparison was intended.(«Ð§ë
+N	java:S106"9Replace this use of System.out or System.err by a logger.(’Ëú‹
+;
+java:S2129
+" Remove this "String" constructor(‹¬úÕøÿÿÿÿ
+6
+java:S2129" Remove this "String" constructor(Õ¥Ó‹
+N	java:S106"9Replace this use of System.out or System.err by a logger.(’Ëú‹
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿƒ”Ìûÿÿÿÿ
+6
+java:S2129" Remove this "String" constructor(ÔŸ‚¢
+V	java:S125"<This block of commented-out lines of code should be removed.(¯ÏÀùüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(«Ð§ë
+D
+java:S1481")Remove this unused "str6" local variable.(šæœÖøÿÿÿÿ
+?
+java:S1481")Remove this unused "str7" local variable.(å™ÏÔ
