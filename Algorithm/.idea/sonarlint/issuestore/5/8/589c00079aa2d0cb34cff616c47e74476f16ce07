@@ -1,9 +1,9 @@
 
-Q
-java:S3740R"/Provide the parametrized type for this generic.(Í“’£ùÿÿÿÿ8¶ùê«ú.
-v
-java:S1210d"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(‡ÕÔÏ8£·ð«ú.
+]	java:S125h"<This block of commented-out lines of code should be removed.(ÿ‘’±ýÿÿÿÿ8Ñ©Ÿ¬ú.
 W	java:S125"<This block of commented-out lines of code should be removed.(¡ð˜O8ˆã¦¬ú.
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8•ªü«ú.
+Q
+java:S3740R"/Provide the parametrized type for this generic.(Í“’£ùÿÿÿÿ8¶ùê«ú.
 X	java:S125"<This block of commented-out lines of code should be removed.(ý”ÐŽ8ˆã¦¬ú.
-]	java:S125h"<This block of commented-out lines of code should be removed.(ÿ‘’±ýÿÿÿÿ8Ñ©Ÿ¬ú.
+v
+java:S1210d"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(‡ÕÔÏ8£·ð«ú.

@@ -1,7 +1,7 @@
 
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8’ ó¬ú.
+W	java:S125"<This block of commented-out lines of code should be removed.(ó¼Œ8¼Ÿö¬ú.
 X	java:S125"<This block of commented-out lines of code should be removed.(„Ü†“8õ´­ú.
+]	java:S125+"<This block of commented-out lines of code should be removed.(÷¦†èýÿÿÿÿ8±“­ú.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8’ ó¬ú.
 Q
 java:S2864/"4Iterate over the "entrySet" instead of the "keySet".(›ì½»8«ýë¬ú.
-]	java:S125+"<This block of commented-out lines of code should be removed.(÷¦†èýÿÿÿÿ8±“­ú.
-W	java:S125"<This block of commented-out lines of code should be removed.(ó¼Œ8¼Ÿö¬ú.
