@@ -60,3 +60,19 @@ public class Q1 {
         return answer;
     }
 }
+
+/*
+SELECT d.id as id
+       , CASE WHEN AVG(e.salary) > 0 THEN AVG(e.salary)
+              ELSE 0 END as deptAverage
+       , CASE WHEN (SELECT AVG(salary) FROM employees) = AVG(e.salary) THEN 'Equal'
+              WHEN (SELECT AVG(salary) FROM employees) < AVG(e.salary) THEN 'Above'
+              WHEN (SELECT AVG(salary) FROM employees) > AVG(e.salary) OR e.salary IS NULL THEN 'Below'
+              END status
+  FROM departments d
+  LEFT OUTER JOIN employees e
+    ON d.id = e.departmentId
+ GROUP BY d.id
+
+ ;
+* */

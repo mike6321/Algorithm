@@ -267,3 +267,7 @@ R
 "src/main/java/me/choi/exam/Q2.java,0/2/02a06f279c51e8717713bc13ec6852d5b68a1a57
 Y
 )src/main/java/me/choi/exam/Problem02.java,c/4/c499523e7aa0b552eef243de70c74599f43d68b1
+R
+"src/main/java/me/choi/exam/Q1.java,2/e/2eeae2eb564f27c1e97d1ff764cd83e1c443aa67
+Z
+*src/main/java/me/choi/exam/Question02.java,6/4/642c7e1bb3d517d74daea6da87eed56068f28fa4
