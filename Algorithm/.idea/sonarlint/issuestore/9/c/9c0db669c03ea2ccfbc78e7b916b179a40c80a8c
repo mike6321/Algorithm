@@ -1,0 +1,19 @@
+
+8
+java:S3626,"Remove this redundant jump.(ÉŠ©ƒ8ÜÚŠƒ/
+z	java:S135#"YReduce the total number of break and continue statements in this loop to use at most one.(Â±†„ÿÿÿÿÿ8åÏ‘‰ƒ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8Ùµ¨‰ƒ/
+S
+java:S2692'"10 is a valid index, but is ignored by this check.(ŠÜüøùÿÿÿÿ8åÏ‘‰ƒ/
+8
+java:S3626Z"Remove this redundant jump.(ÉŠ©ƒ8åÏ‘‰ƒ/
+8
+java:S3626)"Remove this redundant jump.(ÉŠ©ƒ8åÏ‘‰ƒ/
+Q
+java:S1066J"/Merge this if statement with the enclosing one.(‘í¯‘ÿÿÿÿÿ8åÏ‘‰ƒ/
+t
+java:S3776F"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ù¾ó”ıÿÿÿÿ8åÏ‘‰ƒ/
+N
+java:S2692$"10 is a valid index, but is ignored by this check.(Ô–ï8åÏ‘‰ƒ/
+8
+java:S3626&"Remove this redundant jump.(ÉŠ©ƒ8åÏ‘‰ƒ/
