@@ -1,0 +1,12 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(Ô„×Æüÿÿÿÿ8µôûş…/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8ñëüı…/
+]	java:S125#"<This block of commented-out lines of code should be removed.(‹»Ğ™ûÿÿÿÿ8½‚Òş…/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚æÈÆÿÿÿÿÿ8µÄøı…/
+8
+java:S36269"Remove this redundant jump.(ÉŠ©ƒ8²º®ş…/
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8Ñ¹Òş…/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚æÈÆÿÿÿÿÿ8µÄøı…/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—…§øÿÿÿÿ8ñëüı…/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÕµÛ8ñëüı…/

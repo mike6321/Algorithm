@@ -1,4 +1,4 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8•ò™…ƒ/
 v
 java:S1210<"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ã¢£í8öôÃ…ƒ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8•ò™…ƒ/

@@ -1,0 +1,11 @@
+
+I
+java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8èÑÖ©…/
+{
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "answer".(µ™ä‚8Æ“›©…/
+F
+java:S1481")Remove this unused "time" local variable.(’ÇÎ½8¹˜Þ©…/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¯ÿþøÿÿÿÿ8Æ“›©…/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¯ÿþøÿÿÿÿ8Æ“›©…/
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äð18èÑÖ©…/

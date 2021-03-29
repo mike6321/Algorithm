@@ -281,3 +281,15 @@ d
 4src/main/java/me/choi/exam/kakaoenter/Problem02.java,8/d/8d928030c7a322de320b28dddaced1d8d1cf88e8
 d
 4src/main/java/me/choi/exam/kakaoenter/Problem03.java,9/c/9c0db669c03ea2ccfbc78e7b916b179a40c80a8c
+a
+1src/main/java/me/choi/exam/sixshop/Problem01.java,7/9/798da99f908848c4c2792b0e39fa8cbae1dacedf
+a
+1src/main/java/me/choi/exam/sixshop/Problem04.java,6/8/68c115668f276bf6021c4c4774ca0c8a1dbf54c4
+a
+1src/main/java/me/choi/exam/sixshop/Problem02.java,5/9/59017ad4fca11fb9a0e68f2bcaf8e88e62904790
+_
+/src/main/java/me/choi/exam/kakao/Problem02.java,a/5/a595e404c431e57ebe2990e420ed8c64f4795847
+_
+/src/main/java/me/choi/exam/kakao/Problem01.java,2/f/2f58807e3e29a628522872b1c9013758a498625b
+_
+/src/main/java/me/choi/exam/kakao/Problem03.java,3/a/3a2b317a244b3c56bc58d7f1be9e82d7e42d02a7
