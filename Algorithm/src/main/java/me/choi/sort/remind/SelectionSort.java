@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Project : Algorithm
  *
  * @author : jwdeveloper
- * @comment : 가장 작은 것을 선택해서 제일 앞으로 보낸다.
+ * @comment : 가장 작은 것을 선택해서 제일 앞으로 보낸다. (n^2)
  * Time : 12:31 오전
  */
 public class SelectionSort {
