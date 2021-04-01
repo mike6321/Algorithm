@@ -46,7 +46,7 @@ public class Problem01 {
         }
         List<Target> sortList;
         if (orderDirection == 0) {
-            sortList = targetList.stream().sorted(Comparator.comparing(Target::getName)).collect(Collectors.toList());
+            sortList = getTargets(targetList);
         } else {
             sortList = targetList.stream().sorted(Comparator.comparing(Target::getName).reversed()).collect(Collectors.toList());
         }
@@ -67,6 +67,12 @@ public class Problem01 {
 
         return result;
 
+    }
+
+    private static List<Target> getTargets(List<Target> targetList) {
+        List<Target> sortList;
+        sortList = targetList.stream().sorted(Comparator.comparing(Target::getName)).collect(Collectors.toList());
+        return sortList;
     }
 
     private static void insertList(List<Target> targetList, int i, List<String> target, int j) {

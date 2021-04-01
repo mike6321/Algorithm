@@ -1,17 +1,17 @@
 
-I
-java:S1481!"-Remove this unused "solution" local variable.(·ëÀ8È™Üü…/
-X	java:S125""<This block of commented-out lines of code should be removed.(¥à™´8È™Üü…/
-J
-java:S1172H"(Remove this unused method parameter "j".(¢ÃÏÀûÿÿÿÿ8¼§ğü…/
-Z
-java:S3878"8Remove this array creation and simply pass the elements.(ÀÛÌÀıÿÿÿÿ8¥Â·ü…/
-Z	java:S106?"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8©ªÄı…/
 ‰
 java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8ì–Áü…/
+X	java:S125""<This block of commented-out lines of code should be removed.(¥à™´8È™Üü…/
 T
 java:S3878"8Remove this array creation and simply pass the elements.(¢É¨'8¥Â·ü…/
-Q
-java:S1128	"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8æÌ‚ı…/
+I
+java:S1481!"-Remove this unused "solution" local variable.(·ëÀ8È™Üü…/
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8©ªÄı…/
 T
 java:S3878"8Remove this array creation and simply pass the elements.(úŸú78¥Â·ü…/
+Q
+java:S1128	"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8æÌ‚ı…/
+J
+java:S1172N"(Remove this unused method parameter "j".(¢ÃÏÀûÿÿÿÿ8¼§ğü…/
+Z
+java:S3878"8Remove this array creation and simply pass the elements.(ÀÛÌÀıÿÿÿÿ8¥Â·ü…/
