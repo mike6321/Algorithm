@@ -8,6 +8,7 @@ import java.util.stream.Stream;
  *
  * @author : jwdeveloper
  * @comment : 어떻게 1억건의 데이터를 100건만 최신순으로 보일 수 있을까?
+ * 소요시간 : 5735
  * Time : 9:37 오후
  */
 public class BulkDataSorting {
@@ -20,7 +21,7 @@ public class BulkDataSorting {
 //        }
 
         Random random = new Random();
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < 100000000; i++) {
             cache.add(random.nextInt(10000000));
         }
     }
