@@ -1,19 +1,19 @@
 
-]	java:S125m"<This block of commented-out lines of code should be removed.(Ê…¼Šøÿÿÿÿ8“œîû…/
+X	java:S125$"<This block of commented-out lines of code should be removed.(›ëİØ8õÚ¾ü…/
 P
 java:S1068)".Remove this unused "LEND_INDEX" private field.(Â¥×²şÿÿÿÿ8ÓÄ¾ü…/
-]	java:S125s"<This block of commented-out lines of code should be removed.(¨·¶–ûÿÿÿÿ8“œîû…/
-T
-java:S3655U"7Call "Optional#isPresent()" before accessing the value.(î¬¥Á8óöƒü…/
-Q
-java:S1068*"/Remove this unused "POINT_INDEX" private field.(öâõ¥şÿÿÿÿ8ÓÄ¾ü…/
-^	java:S125ª"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8¤•ïû…/
 M
 java:S1144F"+Remove this unused private "answer" method.(¢úæ´şÿÿÿÿ8ÓÄ¾ü…/
-X	java:S125$"<This block of commented-out lines of code should be removed.(›ëİØ8õÚ¾ü…/
+Q
+java:S1068*"/Remove this unused "POINT_INDEX" private field.(öâõ¥şÿÿÿÿ8ÓÄ¾ü…/
 V
 java:S1118'":Add a private constructor to hide the implicit public one.(ŒÅüg8“œîû…/
-]	java:S125-"<This block of commented-out lines of code should be removed.(Ê…¼Šøÿÿÿÿ8ÓÄ¾ü…/
-Y	java:S125–"<This block of commented-out lines of code should be removed.(øçô™8“œîû…/
 R
 java:S1068("0Remove this unused "BORROW_INDEX" private field.(óì¸©üÿÿÿÿ8ÓÄ¾ü…/
+T
+java:S3655U"7Call "Optional#isPresent()" before accessing the value.(î¬¥Á8óöƒü…/
+^	java:S125ª"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8¤•ïû…/
+]	java:S125m"<This block of commented-out lines of code should be removed.(Ê…¼Šøÿÿÿÿ8“œîû…/
+]	java:S125s"<This block of commented-out lines of code should be removed.(¨·¶–ûÿÿÿÿ8“œîû…/
+]	java:S125-"<This block of commented-out lines of code should be removed.(Ê…¼Šøÿÿÿÿ8ÓÄ¾ü…/
+Y	java:S125–"<This block of commented-out lines of code should be removed.(øçô™8“œîû…/

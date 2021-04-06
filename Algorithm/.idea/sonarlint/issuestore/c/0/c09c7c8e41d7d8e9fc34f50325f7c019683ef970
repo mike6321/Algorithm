@@ -1,0 +1,15 @@
+
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8¾–Ç±‰/
+{
+java:S1488&"^Immediately return this expression instead of assigning it to the temporary variable "answer".(åí¢é8ËîÁ±‰/
+S
+java:S2696 "6Make the enclosing method "static" or remove this set.(º¸Î8·ÛÌ±‰/
+S
+java:S2696!"6Make the enclosing method "static" or remove this set.(±‰µ8İôÌ±‰/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ûÀ­Äûÿÿÿÿ8ûº±‰/
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ûº±‰/
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(¡Æ€œ8‡¢Å±‰/
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(†ƒÙú8‡¢Å±‰/
