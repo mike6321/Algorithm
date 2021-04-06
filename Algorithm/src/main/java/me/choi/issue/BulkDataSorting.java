@@ -15,8 +15,13 @@ public class BulkDataSorting {
     private static List<Integer> cache = new ArrayList<>();
 
     static {
-        for (int i = 10000000; i > 1000000 ; i--) {
-            cache.add(i);
+//        for (int i = 10000000; i > 0 ; i--) {
+//            cache.add(i);
+//        }
+
+        Random random = new Random();
+        for (int i = 0; i < 10000000; i++) {
+            cache.add(random.nextInt(10000000));
         }
     }
 
@@ -48,6 +53,6 @@ public class BulkDataSorting {
             System.out.println("index " + index +  " : " + hundredQueue.poll());
             index++;
         }
-        System.out.println("소요시 : " + end);
+        System.out.println("소요시간 : " + end);
     }
 }
