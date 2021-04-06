@@ -1,9 +1,7 @@
 package me.choi.issue;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
+import java.util.stream.Stream;
 
 /**
  * Project : Algorithm
@@ -13,36 +11,43 @@ import java.util.Queue;
  * Time : 9:37 오후
  */
 public class BulkDataSorting {
+
+    private static List<Integer> cache = new ArrayList<>();
+
+    static {
+        for (int i = 10000000; i > 1000000 ; i--) {
+            cache.add(i);
+        }
+    }
+
     public static void main(String[] args) {
+        Queue<Integer> hundredQueue = new PriorityQueue<>();
 
-        List<Integer> data = new ArrayList<>();
-        for (int i = 500; i < 1000; i++) {
-            data.add(i);
-        }
-        for (int i = 0; i < 500; i++) {
-            data.add(i);
-        }
+        long start = System.currentTimeMillis();
+        int size = cache.size();
 
-        Queue<Integer> priority1 = new PriorityQueue<>();
-        // 1 2 3 4
-        Queue<Integer> priority2 = new PriorityQueue<>();
-        // 4 3 2 1
+        for (int i = 0; i < size; i++) {
+            int targetData = cache.get(i);
 
-        //100개의 데이터를 넣었음
-        for (int i = 0; i < 100; i++) {
-            priority1.offer(data.get(i));
-        }
+            if (hundredQueue.size() > 99) {
+                int maxofHundredCacheValue = hundredQueue.peek();
 
-        //599
-        for (int i = 100; i < data.size(); i++) {
-            int targetData = data.get(i);
-
-            for (int j = 0; j < priority1.size(); j++) {
-                int nowMinValue = priority1.peek();
-                System.out.println(nowMinValue);
+                if (maxofHundredCacheValue > targetData) {
+                    hundredQueue.offer(targetData);
+                    hundredQueue.poll();
+                }
+            }
+            else {
+                hundredQueue.offer(targetData);
             }
         }
+        long end = System.currentTimeMillis() - start;
 
-        System.out.println(priority1.poll());
+        int index = 1;
+        while (!hundredQueue.isEmpty()) {
+            System.out.println("index " + index +  " : " + hundredQueue.poll());
+            index++;
+        }
+        System.out.println("소요시 : " + end);
     }
 }
