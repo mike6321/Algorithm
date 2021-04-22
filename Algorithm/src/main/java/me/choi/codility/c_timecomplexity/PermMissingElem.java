@@ -1,6 +1,7 @@
 package me.choi.codility.c_timecomplexity;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 /**
  * Project : Algorithm
@@ -20,13 +21,20 @@ public class PermMissingElem {
     public int solution(int[] A) {
         // write your code in Java SE 8
         Arrays.sort(A);
-        int result = 0;
-        for (int i = 0; i < A.length; i++) {
-            if (i + 1 != A[i]) {
-                return i + 1;
-            }
-         }
+        return IntStream.range(0, A.length)
+                .filter(i -> i + 1 != A[i])
+                .map(i -> i + 1)
+                .findFirst()
+                .orElse(A.length + 1)
+                ;
 
-        return A.length + 1;
+//        int result = 0;
+//        for (int i = 0; i < A.length; i++) {
+//            if (i + 1 != A[i]) {
+//                return i + 1;
+//            }
+//         }
+//
+//        return A.length + 1;
     }
 }
