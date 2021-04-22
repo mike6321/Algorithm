@@ -1,7 +1,12 @@
 package me.choi.codility.d_countingelements;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.stream.IntStream;
 
 /**
  * Project : Algorithm
@@ -23,17 +28,33 @@ public class FrogRiverOne {
         // write your code in Java SE 8
         Set<Integer> set = new HashSet<>();
 
-        for (int i = 0; i < A.length; i++) {
-            if (A[i] <= X) {
-                set.add(A[i]);
-            }
+//        for (int i = 0; i < A.length; i++) {
+//            if (A[i] <= X) {
+//                set.add(A[i]);
+//            }
+//
+//            if (set.size() == X) {
+//                return i;
+//            }
+//        }
 
-            if (set.size() == X) {
-                return i;
-            }
-        }
+//        return  -1;
 
+        List<Integer> result = new ArrayList<>();
+        IntStream.range(0, A.length)
+                .forEach(i -> {
+                    if (A[i] <= X) {
+                        set.add(A[i]);
+                    }
 
-        return  -1;
+                    if (set.size() == X) {
+                        result.add(i);
+                    }
+                });
+
+        return result.stream()
+                     .findFirst()
+                     .orElse(-1);
+
     }
 }
