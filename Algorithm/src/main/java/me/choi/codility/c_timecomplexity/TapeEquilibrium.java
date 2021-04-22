@@ -1,5 +1,7 @@
 package me.choi.codility.c_timecomplexity;
 
+import java.util.Arrays;
+
 /**
  * Project : Algorithm
  *
@@ -17,10 +19,12 @@ public class TapeEquilibrium {
 
     public int solution(int[] A) {
         // write your code in Java SE 8
-        int totalSum = 0;
-        for (int i = 0; i < A.length; i++) {
-            totalSum += A[i];
-        }
+//        int totalSum = 0;
+//        for (int i = 0; i < A.length; i++) {
+//            totalSum += A[i];
+//        }
+
+        int totalSum = Arrays.stream(A).reduce((num1, num2) -> num1 + num2).getAsInt();
 
         int leftSum = 0;
         int rightSum = 0;
