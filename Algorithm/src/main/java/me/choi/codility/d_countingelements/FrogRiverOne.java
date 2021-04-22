@@ -37,9 +37,10 @@ public class FrogRiverOne {
 //                return i;
 //            }
 //        }
-
+//
 //        return  -1;
-
+        
+        // TODO: 공유변수를 줄여보자 2021/04/22 5:05 오후
         List<Integer> result = new ArrayList<>();
         IntStream.range(0, A.length)
                 .forEach(i -> {
