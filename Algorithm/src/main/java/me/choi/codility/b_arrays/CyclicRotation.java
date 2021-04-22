@@ -1,5 +1,8 @@
 package me.choi.codility.b_arrays;
 
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
 /**
  * Project : Algorithm
  *
@@ -20,19 +23,35 @@ public class CyclicRotation {
         int[] result = new int[A.length];
         int length = A.length;
 
-        for (int i = 0; i < A.length; i++) {
-            int cycle = 0;
-            if (i + K >= length) {
-                cycle = (i + K) % length;
-            } else {
-                cycle = i + K;
-            }
-            result[cycle] = A[i];
+        IntStream.range(0, A.length)
+                .forEach(i -> {
+                    calculate(A, K, result, length, i);
+                });
+
+//        for (int i = 0; i < A.length; i++) {
+//            int cycle = 0;
+//            if (i + K >= length) {
+//                cycle = (i + K) % length;
+//            } else {
+//                cycle = i + K;
+//            }
+//            result[cycle] = A[i];
+//        }
+
+        Arrays.stream(result)
+                .forEach(System.out::println);
+
+        return result;
+    }
+
+    private void calculate(int[] A, int K, int[] result, int length, int i) {
+        int cycle = 0;
+        if (i + K >= length) {
+            cycle = (i + K) % length;
+        } else {
+            cycle = i + K;
         }
 
-//        for (int i = 0; i < result.length; i++) {
-//            System.out.println(result[i]);
-//        }
-        return result;
+        result[cycle] = A[i];
     }
 }

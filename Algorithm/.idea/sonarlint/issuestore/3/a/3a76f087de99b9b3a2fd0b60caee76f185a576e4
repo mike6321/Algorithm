@@ -1,19 +1,19 @@
 
-X
-java:S2696!"6Make the enclosing method "static" or remove this set.(Æ“ ¯ÿÿÿÿÿ8£ë±‰/
-S
-java:S2696#"6Make the enclosing method "static" or remove this set.(–­ã8£ë±‰/
-H
-java:S1068"+Remove this unused "visited" private field.(•À×8ˆ™Ö±‰/
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¬ÚŒ8£ë±‰/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8ˆ€’²‰/
 S
 java:S2696"6Make the enclosing method "static" or remove this set.(¿Î€ 8‹Ô²‰/
 S
 java:S2696 "6Make the enclosing method "static" or remove this set.(±‰µ8£ë±‰/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ú…‡ì8ˆ€’²‰/
+S
+java:S2696#"6Make the enclosing method "static" or remove this set.(–­ã8£ë±‰/
+X
+java:S2696!"6Make the enclosing method "static" or remove this set.(Æ“ ¯ÿÿÿÿÿ8£ë±‰/
 t
 java:S3776)"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Äêõùÿÿÿÿ8€æ–²‰/
 u
 java:S3008"SRename this field "MaxValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²„ñ‡üÿÿÿÿ8ùàà±‰/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¬ÚŒ8£ë±‰/
+H
+java:S1068"+Remove this unused "visited" private field.(•À×8ˆ™Ö±‰/
 g	java:S101
 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ø˜¯±ıÿÿÿÿ

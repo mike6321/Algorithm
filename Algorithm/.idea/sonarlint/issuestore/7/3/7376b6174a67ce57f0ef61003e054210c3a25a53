@@ -1,0 +1,19 @@
+
+’
+java:S1319<"pThe type of the "right" object should be an interface such as "List" rather than the implementation "ArrayList".(Ç¬Ü—úÿÿÿÿ8Ä‡’½Š/
+A
+java:S1659>"Declare "r" on a separate line.(à¡ÉÏüÿÿÿÿ8Ä‡’½Š/
+j	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¦¥µ8Ä‡’½Š/
+‰
+java:S1319&"lThe type of the "m" object should be an interface such as "List" rather than the implementation "ArrayList".(ï¦¥µ8„¥˜½Š/
+{
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(·Ä‡úÿÿÿÿ8Ä‡’½Š/
+
+java:S1319&"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ï¦¥µ8Ä‡’½Š/
+’
+java:S1319<"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ç¬Ü—úÿÿÿÿ8Ä‡’½Š/
+‘
+java:S1319<"oThe type of the "left" object should be an interface such as "List" rather than the implementation "ArrayList".(Ç¬Ü—úÿÿÿÿ8Ä‡’½Š/
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ßˆÔËùÿÿÿÿ8¨ş£½Š/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿Ó·òùÿÿÿÿ8¾ç¢½Š/
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ı¹¥½Š/
